@@ -1,0 +1,76 @@
+.contact-banner {
+	position: relative;
+	color: white;
+	background-size: cover;
+	background-postion: center;
+	h4 {
+		font-size: 23px;
+		padding-bottom: 40px;
+		padding-top: 10px;
+	}
+	p {
+		font-weight: lighter;
+		padding-top: 2px;
+	}
+}
+.contact-content {
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+}
+.contact-left-column {
+	width: 500px;
+	height: 235px;
+	background: rgba(255,255,255,0.1);
+	margin: 0 40px 20px 0;
+	padding: 20px;
+	i {
+		color: #8FF0E8;
+		padding-right: 10px;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #8FF0E8;
+	}
+}
+.contact-right-column {
+	width: 500px;
+	height: 670px;
+	background: rgba(255,255,255,0.1);
+	margin-left: 40px;
+	padding: 20px;
+}
+
+// tablet/mobile only
+@media only screen and (max-width:1000px){
+	.contact-content {
+		flex-wrap: wrap;
+	}
+	.contact-left-column {
+		margin-bottom:20px;
+		margin-right: 0px;
+		margin-left: 0px;
+		h4 {
+			text-align: center;
+		}
+	}
+	.contact-right-column {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0;
+		h4 {
+			text-align: center;
+		}
+	} 
+	.section-padding {
+		padding: 20px;
+	}
+	.contact-banner {
+		margin-top: 30px;
+	}
+}
+
+

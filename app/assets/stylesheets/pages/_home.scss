@@ -1,1 +1,42 @@
-// Specific CSS for your home-page
+ .image-interval {
+  height: calc(100vh - 250px);
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: left;
+}
+.wrapper-grey {
+  background-color: #F5F5F5;
+}
+.section-padding {
+	padding: 70px 100px;
+	h3 {
+		padding-bottom: 20px;
+	}
+}
+.form-input {
+  label {
+    font-size: 18px;
+  }
+  input {
+    height: 45px;
+  }
+}
+.edit-profile-form-input {
+    height: 20px;
+}
+// mobile/desktop only
+@media only screen and (max-width:962px){
+  .about {
+    margin-bottom: 30px;
+    h3 {
+      padding-top: 35px;
+    }
+    p {
+      padding: 0 20px;
+    }
+  }
+}
+
+

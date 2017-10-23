@@ -1,0 +1,88 @@
+.banner {
+  background-image: linear-gradient(-225deg, rgba(0,10,50,0.1) 50%, rgba(0,36,61,0.6) 80%), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1508702122/abigail-keenan-17652_ruob4b.jpg');
+  color: white;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.banner-content {
+  margin-top: 50px;
+  h2 {
+    font-size: 42px;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+  p {
+    width: 570px;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);  
+    margin-top: 35px;
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width:769px){
+  .main-logo {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+}
+// IPAD - portrait 767 - 768
+@media only screen and (min-width: 767px) and (max-width:768px){
+   .banner {
+    p {
+      font-size: 20px;
+    }
+  }
+  .main-logo {
+    width: 200px;
+    margin-bottom: 20px;
+    padding-top: 360px;
+  }
+}
+
+// Galaxy/Nexus - landscape 600 - 766
+@media only screen and (min-width: 600px) and (max-width:766px){ 
+  .main-logo {
+    padding-top: 130px;
+    margin-bottom: 20px;
+    width: 180px;
+  }
+  .banner {
+    p {
+      font-size: 16px;
+    }
+  }
+}
+// IPHONE 5 – landscape 500 - 600
+@media only screen and (min-width: 500px) and (max-width:600px){ 
+  .main-logo {
+    padding-top: 80px;
+    margin-bottom: 20px;
+    width: 170px;
+  }
+  .banner {
+    p {
+      font-size: 16px;
+    }
+  }
+}
+// IPHONE 6 & Plus– portrait 360 - 500
+@media only screen and (min-width: 360px) and (max-width:500px){ 
+  .main-logo {
+    padding-top: 240px;
+    margin-bottom: 20px;
+    width: 180px;
+  }
+}
+// IPHONE 5 & smaller – portrait max 359
+@media only screen and (max-width:359px){ 
+  .main-logo {
+    padding-top: 180px;
+    margin-bottom: 20px;
+    width: 150px;
+  }
+}
