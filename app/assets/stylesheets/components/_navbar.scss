@@ -8,6 +8,7 @@
   background-color: white;
   background: white;
   border-color: white;
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,0.1), 0 2px 1px -1px rgba(0,0,0,0.05);
 }
 #navbar-background {
   background-color: black;
@@ -42,7 +43,7 @@
   line-height: 0.5px;
   &.active {
     text-decoration: none;
-    background-color: #DA6024;
+    background-color: #35689F;
   }
 }
 .navbar-enganche-link:hover {
