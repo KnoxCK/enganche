@@ -1,4 +1,4 @@
- .image-interval {
+.image-interval {
   height: calc(100vh - 250px);
   background-size: cover !important;
   display: flex;
@@ -10,33 +10,41 @@
   background-color: #F5F5F5;
 }
 .section-padding {
-	padding: 70px 100px;
-	h3 {
-		padding-bottom: 20px;
-	}
-}
-.form-input {
-  label {
-    font-size: 18px;
-  }
-  input {
-    height: 45px;
+  padding: 70px 100px;
+  h3 {
+    padding-bottom: 10px;
+    color: #4D4D4D;
+    text-align: center;
   }
 }
-.edit-profile-form-input {
-    height: 20px;
-}
-// mobile/desktop only
-@media only screen and (max-width:962px){
-  .about {
-    margin-bottom: 30px;
-    h3 {
-      padding-top: 35px;
-    }
-    p {
-      padding: 0 20px;
-    }
+.about {
+  display: flex;
+  flex-direction: column;
+  border-top: 20px white solid;
+  h4 {
+    padding: 0 322px 50px 322px;
+    letter-spacing: 1px;
+    color: #4D4D4D;
+    text-align: center;
+  }
+  hr {
+    border-bottom: solid #37699D 2px;
+    width: 20px;
+  }
+  span {
+    color: #5385B3;
   }
 }
+.what-we-do-paras {
+  display: flex;
+  justify-content: center;
+  p {
+    width: 459px;
+    text-align: center;
+  }
+}
+
+
+
 
 

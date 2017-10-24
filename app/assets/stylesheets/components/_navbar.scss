@@ -1,8 +1,8 @@
 /* Main class */
 .navbar-enganche {
   display: flex;
-  height: 100px;
-  padding: 0px 28px;
+  height: 80px;
+  padding: 0px 55px 0 40px;
   align-items: center;
   justify-content: space-between;
   background-color: white;
@@ -33,17 +33,35 @@
   align-items: center;
   justify-content: space-between;
 }
+.navbar-addcap-link:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #DA6024;
+  padding: 10px 15px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
 .navbar-enganche-link {
-  color: #35689F;
+  color: #4D4D4D;
   font-size: 18px;
-  padding: 0 10px 0 20px;
-  font-weight: bold;
+  padding: 10px 15px;
+  font-weight: lighter;
   letter-spacing: 1px;
   line-height: 0.5px;
+  margin-right: 8px;
+  margin-left: 8px;
+  &.active {
+    text-decoration: none;
+    background-color: #DA6024;
+  }
 }
 .navbar-enganche-link:hover {
-  color: #4D4D4D;
+  background-color: #35689F;
   text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 8px;
+  margin-left: 8px;
 }
 
 // On scroll only
