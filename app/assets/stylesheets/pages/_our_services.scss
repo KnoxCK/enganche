@@ -9,10 +9,15 @@
   p {
     font-weight: lighter;
     padding-bottom: 30px;
+    font-size: 14px;
   }
   h3 {
     padding-top: 100px;
     padding-bottom: 20px;
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
   }
 }
 .why-enganche-section {
@@ -24,30 +29,4 @@
   text-align: center;
   padding: 0 30px;
   width: 500px;
-}
-
-// Desktop only - min 769
-@media only screen and (min-width:769px){
-  .services-row {
-    padding-right: 60px;
-  }
-}
-// Mobile only
-@media only screen and (max-width:769px){
-  .services-mobile-padding {
-    padding: 10px 10px;
-  }
-  .our-services-banner { 
-    padding: 10px 40px 40px 50px; 
-    h3 {
-      padding-top: 60px;
-      padding-bottom: 10px; 
-    }
-  }
-  .our-services-icon {
-    padding-top: 20px;
-  }
-  .icon-padding {
-    padding-top: 12px;
-  }
 }
