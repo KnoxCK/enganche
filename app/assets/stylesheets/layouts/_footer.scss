@@ -1,0 +1,74 @@
+.footer {
+	background-color: #333332;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	align-items: center;
+	align-content: center;
+	padding: 20px;
+	p {
+		font-size: 14px;
+		color: #D6D7D8;
+		font-weight: lighter;
+	}
+	a {
+		color: #D6D7D8;
+		text-decoration: none;
+	}
+}
+.footer-child {
+	padding: 20px;
+}
+.footer-enganche10-brand img {
+    height: 80px;
+    margin-bottom: 20px;
+}
+.footer-logo {
+	p {
+		text-align: center;
+		font-size: 10px;
+		margin-bottom: 0;
+	}
+}
+.footer-logo-responsive {
+	display: none;
+}
+@media only screen and (max-width: 724px) {
+	.footer {
+		flex-wrap: wrap;
+		align-items: center;
+    	padding: 20px 10vw;
+	}
+	.footer-child {
+		margin: 0;
+		text-align: left;
+	}
+	.footer-logo {
+		display: none;
+	}
+	.footer-logo-responsive {
+	    display: block;
+	}
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
