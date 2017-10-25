@@ -22,28 +22,32 @@
 	}
 	a {
 		color: white;
+		text-decoration: none;
 	}
 	hr {
-	    border-bottom: solid #37699D 2px;
+	    border-bottom: solid #2D6AA3 2px;
 	    width: 20px;
+	}
+	i {
+		padding-right: 10px;
 	}
 }
 .contact-para {
 	width: 600px;
+}
+.phone-number {
+	margin-top: 12px;
 }
 .contact-details {
 	display: flex;
 	justify-content: space-around;
 }
 .enquiries {
-	padding: 20px;
+	padding: 35px;
 	width: 300px;
 	padding-top: 0;
 }
-.enquiries:hover {
-	color: #4D4D4D;
-	a {
-		color: #4D4D4D; 
-		text-decoration: none;
-	}
+.enquiries a:hover {
+	color: #4D4D4D; 
+	text-decoration: none;
 }

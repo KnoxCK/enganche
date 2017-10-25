@@ -23,8 +23,7 @@
 /* Navbar logo */
 .navbar-enganche-brand img {
     width: 200px;
-    top: -6px;
-    margin-left: 18px;
+    padding: 20px;
 }
 
 /* Navbar main section (with form, links, button) */
@@ -39,6 +38,7 @@
   font-weight: lighter;
   letter-spacing: 1px;
   line-height: 0.5px;
+  margin: 0 15px;
   &.active {
     text-decoration: none;
     background-color: #35689F;
@@ -49,6 +49,7 @@
   text-decoration: none;
   color: white;
   padding: 10px 15px;
+  margin: 0 15px;
 }
 
 
