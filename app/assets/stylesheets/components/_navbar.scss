@@ -1,14 +1,11 @@
 /* Main class */
 .navbar-enganche {
-  display: flex;
-  height: 80px;
-  padding: 0px 55px 0 40px;
-  align-items: center;
-  justify-content: space-between;
+  padding: 0px 60px;
   background-color: white;
-  background: white;
-  border-color: white;
-  box-shadow: 0 3px 5px -1px rgba(0,0,0,0.1), 0 2px 1px -1px rgba(0,0,0,0.05);
+  height: 100px;
+  box-shadow: 1px 1px 1px #D9D9D9;
+  display: flex;
+  justify-content: center;
 }
 #navbar-background {
   background-color: black;
@@ -20,19 +17,20 @@
   left: 0px;
   top: 0px;
   z-index: 1001;
-  width: 100%;
+  width: 100vw;
 }
 
 /* Navbar logo */
 .navbar-enganche-brand img {
     width: 200px;
+    top: -6px;
+    margin-left: 18px;
 }
 
-/* Navbar right section (with form, links, button) */
-.navbar-enganche-right {
+/* Navbar main section (with form, links, button) */
+.navbar-enganche-main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .navbar-enganche-link {
   color: #4D4D4D;
@@ -53,65 +51,25 @@
   padding: 10px 15px;
 }
 
-// On scroll only
-.navbar-enganche-scroll {
-  display: flex;
-  height: 70px;
-  padding: 0px 60px;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  opacity: 0.8;
-  box-shadow: 1px 1px 1px #D9D9D9;
-}
-.navbar-enganche-link-scroll {
-  color: #565656;
-  font-size: 14px;
-  font-weight: lighter;
-  padding: 0 10px;
-  letter-spacing: 2px;
-  line-height: 0.5px;
-}
-.navbar-enganche-link-scroll:hover {
-  color: #8FF0E8;
-  text-decoration: none;
-}
 
 
-//MOBILE: 
-
-//TOGGLE
-
-.dropdown {
-  font-size: 25px;
-}
-.dropdown a {
-  text-decoration: none;
-}
-.dropdown.open a {
-  text-decoration: none;
-}
-.toggle-white a {
-  color: white;
-}
-.toggle-black a {
-  color: black;
-}
 /* Navbar dropdown menu */
 .navbar-enganche-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
-  text-decoration: none;
 }
 .navbar-enganche-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: grey !important;
+  color: white !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
-  width: 100%;
+}
+.navbar-enganche-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
 }
 .navbar-enganche-dropdown-menu:before {
   content: ' ';
@@ -125,23 +83,185 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
-.dropdown-menu-right {
-  padding: 30px;
+.dropdown-toggle-black {
+  color: black;
+}
+// On scroll only
+@media(min-width: 980px){
+  .smooth-scroll {
+    top: -100px;
+    transition: top 2s ease;
+  }
+  .navbar-enganche {
+    transition: top 2s ease;
+  }
+}
+@media(max-width: 400px){
+ .navbar-enganche {
+    background-color: transparent; 
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+  }
 }
 
 
-// Mobile & Tablet only
-@media only screen and (max-width:1200px){
-  .navbar-enganche-scroll {
-    opacity: 1;
-  }
-}
-// Tablet - portrait max 420
-@media only screen and (max-width:420px){
-  .navbar-enganche-brand img {
-      width: 100px;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+// /* Main class */
+// .navbar-enganche {
+//   display: flex;
+//   height: 80px;
+//   padding: 0px 55px 0 40px;
+//   align-items: center;
+//   justify-content: space-between;
+//   background-color: white;
+//   background: white;
+//   border-color: white;
+//   box-shadow: 0 3px 5px -1px rgba(0,0,0,0.1), 0 2px 1px -1px rgba(0,0,0,0.05);
+// }
+// #navbar-background {
+//   background-color: black;
+// }
+
+// /* Optional class to fix the navbar on top */
+// .navbar-enganche-fixed {
+//   position: fixed;
+//   left: 0px;
+//   top: 0px;
+//   z-index: 1001;
+//   width: 100%;
+// }
+
+// /* Navbar logo */
+// .navbar-enganche-brand img {
+//     width: 200px;
+// }
+
+// /* Navbar right section (with form, links, button) */
+// .navbar-enganche-right {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+// }
+// .navbar-enganche-link {
+//   color: #4D4D4D;
+//   font-size: 14px;
+//   padding: 10px 15px;
+//   font-weight: lighter;
+//   letter-spacing: 1px;
+//   line-height: 0.5px;
+//   &.active {
+//     text-decoration: none;
+//     background-color: #35689F;
+//   }
+// }
+// .navbar-enganche-link:hover {
+//   background-color: #35689F;
+//   text-decoration: none;
+//   color: white;
+//   padding: 10px 15px;
+// }
+
+// // On scroll only
+// .navbar-enganche-scroll {
+//   display: flex;
+//   height: 70px;
+//   padding: 0px 60px;
+//   align-items: center;
+//   justify-content: space-between;
+//   background-color: white;
+//   opacity: 0.8;
+//   box-shadow: 1px 1px 1px #D9D9D9;
+// }
+// .navbar-enganche-link-scroll {
+//   color: #565656;
+//   font-size: 14px;
+//   font-weight: lighter;
+//   padding: 0 10px;
+//   letter-spacing: 2px;
+//   line-height: 0.5px;
+// }
+// .navbar-enganche-link-scroll:hover {
+//   color: #8FF0E8;
+//   text-decoration: none;
+// }
+
+
+// //MOBILE: 
+
+// //TOGGLE
+
+// .dropdown {
+//   font-size: 25px;
+// }
+// .dropdown a {
+//   text-decoration: none;
+// }
+// .dropdown.open a {
+//   text-decoration: none;
+// }
+// .toggle-white a {
+//   color: white;
+// }
+// .toggle-black a {
+//   color: black;
+// }
+// /* Navbar dropdown menu */
+// .navbar-enganche-dropdown-menu {
+//   margin-top: 15px;
+//   box-shadow: 1px 1px 4px #E6E6E6;
+//   border-color: #E6E6E6;
+//   text-decoration: none;
+// }
+// .navbar-enganche-dropdown-menu li > a {
+//   transition: color 0.3s ease;
+//   font-weight: lighter !important;
+//   color: grey !important;
+//   font-size: 15px !important;
+//   line-height: 22px !important;
+//   padding: 10px 20px;
+//   width: 100%;
+// }
+// .navbar-enganche-dropdown-menu:before {
+//   content: ' ';
+//   height: 10px;
+//   width: 10px;
+//   position: absolute;
+//   right: 10px;
+//   top: -6px;
+//   background-color: white;
+//   transform: rotate(45deg);
+//   border-left: 1px solid #E6E6E6;
+//   border-top: 1px solid #E6E6E6;
+// }
+// .dropdown-menu-right {
+//   padding: 30px;
+// }
+
+
+// // Mobile & Tablet only
+// @media only screen and (max-width:1200px){
+//   .navbar-enganche-scroll {
+//     opacity: 1;
+//   }
+// }
+// // Tablet - portrait max 420
+// @media only screen and (max-width:420px){
+//   .navbar-enganche-brand img {
+//       width: 100px;
+//   }
+// }
 
 
 

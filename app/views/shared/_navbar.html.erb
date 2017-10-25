@@ -1,98 +1,54 @@
-<div class="navbar-enganche navbar-enganche-fixed hidden-xs hidden-sm">
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-enganche-brand" do %>
-    <%= image_tag "logo_small_bl.jpg" %>
-  <% end %>
 
-  <!-- Right Navigation -->
-  <div class="navbar-enganche-right">
+<div class="navbar-enganche navbar-enganche-fixed">
+
+  <!-- main Navigation -->
+  <div class="navbar-enganche-main hidden-xs hidden-sm">
 
 <!-- Navbar menu -->
     <!-- About link -->
     <div class="link-outline">
       <%= link_to "WHAT WE DO", root_path(:anchor => "about"), class: "navbar-enganche-link" %>
     </div>
+
     <!-- Our Playbook link -->
     <div class="link-outline">
       <%= link_to "OUR PLAYBOOK", root_path(:anchor => "playbook"), class: "navbar-enganche-link" %>
     </div>
+
+    <!-- Logo -->
+  <%= link_to root_path, class: "navbar-enganche-brand" do %>
+    <%= image_tag "logo_small_bl.jpg" %>
+  <% end %>
+
     <!-- Why Enganche link -->
     <div class="link-outline">
       <%= link_to "WHY ENGANCHE 10?", root_path(:anchor => "why-enganche"), class: "navbar-enganche-link" %>
     </div>
-    <div class="link-outline">
-      <%= link_to "CONTACT", root_path(:anchor => "contact"), class: "navbar-enganche-link" %>
-    </div>
-  </div>
-</div>
 
-
-<!-- Navbar appearing on scroll -->
-<div class="navbar-enganche-scroll navbar-enganche-fixed hidden hidden-xs hidden-sm">
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-enganche-brand" do %>
-    <%= image_tag "logo_small_bl.png" %>
-  <% end %>
-
-  <!-- Right Navigation -->
-  <div class="navbar-enganche-right">
-  <!-- Navbar menu -->
-    <!-- About link -->
-    <%= link_to "ABOUT", root_path(:anchor => "about"), class: "navbar-enganche-link-scroll" %>
-    <!-- Our Story link -->
-    <%= link_to "OUR STORY", root_path(:anchor => "our-story"), class: "navbar-enganche-link-scroll" %>
-    <!-- Services link -->
-    <%= link_to "SERVICES", root_path(:anchor => "services"), class: "navbar-enganche-link-scroll" %>
-    <!-- Our Team link -->
-    <%= link_to "OUR TEAM", root_path(:anchor => "our-team"), class: "navbar-enganche-link-scroll" %>
-    <!-- Happy People link -->
-    <%= link_to "HAPPY PEOPLE", root_path(:anchor => "happy-people"), class: "navbar-enganche-link-scroll" %>
-    <!-- Chaperones link -->
-    <!--#link_to #"CHAPERONES", #chaperone_path -->
     <!-- Contact link -->
-    <%= link_to "CONTACT", root_path(:anchor => "contact"), class: "navbar-enganche-link-scroll" %>
-  </div>
-</div>
-
-
-<!-- Dropdown list appearing on mobile only BEFORE SCROLL-->
-<div class="navbar-enganche navbar-enganche-fixed hidden-md hidden-lg">
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-enganche-brand" do %>
-    <%= image_tag "logo_small_bl.png" %>
-  <% end %>
-  <div class="navbar-enganche-item hidden-md hidden-lg">
-    <div class="dropdown toggle-white">
-      <a class="fa fa-bars dropdown-toggle" data-toggle="dropdown" href="#"></a>
-      <ul class="dropdown-menu dropdown-menu-right navbar-enganche-dropdown-menu">
-        <li><%= link_to "ABOUT", root_path(:anchor => "about") %></li>
-        <li><%= link_to "OUR STORY", root_path(:anchor => "our-story") %></li>
-        <li><%= link_to "SERVICES", root_path(:anchor => "services") %></li>
-        <li><%= link_to "OUR TEAM", root_path(:anchor => "our-team") %></li>
-        <li><%= link_to "HAPPY PEOPLE", root_path(:anchor => "happy-people") %></li>
-        <li><%= link_to "CONTACT", root_path(:anchor => "contact") %></li>
-      </ul>
+    <div class="link-outline">
+      <%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link" %>
     </div>
   </div>
+
+  <!-- Dropdown list appearing on mobile only -->
+  <div class="navbar-enganche-item hidden-md hidden-lg">
+      <%= link_to root_path, class: "navbar-enganche-brand-mobile" do %>
+        <%= image_tag "enganche-logo-small.png" %>
+      <% end %>
+      <div class="dropdown dropdown-toggle-black">
+        <a class="fa fa-bars dropdown-toggle" data-toggle="dropdown" href="#"></a>
+        <ul class="dropdown-menu dropdown-menu-main .navbar-enganche-dropdown-menu">
+          <li><%= link_to "WHAT WE DO", root_path(:anchor => "about") %></li>
+        <li><%= link_to "OUR PLAYBOOK", root_path(:anchor => "our-story") %></li>
+        <li><%= link_to "WHY ENGANCHE 10?", root_path(:anchor => "services") %></li>
+        <li><%= link_to "LET'S TALK", root_path(:anchor => "contact") %></li>
+        </ul>
+      </div>
+  </div>
+
 </div>
 
-<!-- Dropdown list appearing on mobile only ON SCROLL-->
-<div class="navbar-enganche-scroll navbar-enganche-fixed hidden-md hidden-lg hidden">
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-enganche-brand" do %>
-    <%= image_tag "logo_small_bl.png" %>
-  <% end %>
-  <div class="navbar-enganche-item hidden-md hidden-lg">
-    <div class="dropdown toggle-black">
-      <a class="fa fa-bars" data-toggle="dropdown" href="#"></a>
-      <ul class="dropdown-menu dropdown-menu-right navbar-enganche-dropdown-menu">
-        <li><%= link_to "ABOUT", root_path(:anchor => "about") %></li>
-        <li><%= link_to "OUR STORY", root_path(:anchor => "our-story") %></li>
-        <li><%= link_to "SERVICES", root_path(:anchor => "services") %></li>
-        <li><%= link_to "OUR TEAM", root_path(:anchor => "our-team") %></li>
-        <li><%= link_to "HAPPY PEOPLE", root_path(:anchor => "happy-people") %></li>
-        <li><%= link_to "CONTACT", root_path(:anchor => "contact") %></li>
-      </ul>
-    </div>
-  </div>
-</div>
+
+
+

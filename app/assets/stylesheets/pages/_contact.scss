@@ -10,8 +10,9 @@
 	margin-top: 20px;
 	h3 {
 		color: white;
-		padding-bottom: 0;
 		font-size: 24px;
+		padding-top: 25px;
+    	padding-bottom: 20px;
 	}
 	h4 {
 		font-size: 18px;
@@ -32,12 +33,12 @@
 }
 .contact-details {
 	display: flex;
-	padding-top: 20px;
 	justify-content: space-around;
 }
 .enquiries {
 	padding: 20px;
 	width: 300px;
+	padding-top: 0;
 }
 .enquiries:hover {
 	color: #4D4D4D;
