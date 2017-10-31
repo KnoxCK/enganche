@@ -42,6 +42,7 @@
   &.active {
     text-decoration: none;
     background-color: #35689F;
+    color: white;
   }
 }
 .navbar-enganche-link:hover {
@@ -99,7 +100,7 @@
 }
 @media(max-width: 400px){
  .navbar-enganche {
-    background-color: transparent; 
+    background-color: transparent;
     border-color: transparent;
     background: transparent;
     box-shadow: none;
@@ -199,7 +200,7 @@
 // }
 
 
-// //MOBILE: 
+// //MOBILE:
 
 // //TOGGLE
 
