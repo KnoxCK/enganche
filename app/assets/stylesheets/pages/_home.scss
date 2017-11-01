@@ -50,7 +50,32 @@
   }
 }
 
-
-
+@media only screen and (max-width: 1007px) {
+  .section-padding {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 979px) {
+  .about h4 {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 883px) {
+  .about h4 {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 583px) {
+  .about h4 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .what-we-do-paras {
+    flex-direction: column;
+  }
+}
 
 
