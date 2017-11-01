@@ -2,7 +2,7 @@
   background-image: linear-gradient(-225deg, rgba(0,10,50,0.1) 50%, rgba(0,36,61,0.6) 80%), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1509560257/T-SHIRT_3_crtfkd.jpg');
   color: white;
   text-align: center;
-  height: calc(100vh - 100px);
+  height: 100vh;
   width: 100%;
   background-size: cover !important;
   position: relative;
@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-top: 100px;
+  // margin-top: 100px;
 }
 .banner-content {
   margin-top: 50px;
