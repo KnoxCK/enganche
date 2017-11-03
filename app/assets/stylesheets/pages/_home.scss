@@ -19,15 +19,18 @@
   }
 }
 .about {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   h4 {
-    color: #4D4D4D;
+    color: #B4C9DC;
     text-align: center;
-    font-size: 18px;
-    width: 750px;
+    font-size: 26px;
+    width: 600px;
+    font-weight: bold;
+    outline-style: 1px solid white;
   }
   hr {
     border-bottom: solid #37699D 2px;
@@ -36,21 +39,52 @@
     margin-bottom: 20px;
   }
   span {
-    color: #5385B3;
+    color: white;
     font-weight: bold;
+    font-size: 44px;
+  }
+  strong {
+    color: #FE4816;
+    font-weight: bold;
+    font-size: 80px;
   }
 }
-.what-we-do-paras {
+.quote-section {
   display: flex;
-  justify-content: justify;
-  padding: 0 12px;
   justify-content: center;
-  p {
-    width: 500px;
-    text-align: left;
-    font-size: 15px;
-    padding: 40px 15px 10px 15px;
+  background-color: #316BA1;
+}
+.quote {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 520px;
+  padding: 60px 0;
+  position: relative;
+  h3 {
+    i {
+      color: white;
+      font-size: 25px;
+      padding-top: 25px;
+      padding-bottom: 20px;
+    }
   }
+  i {
+    font-size: 55px;
+    color: white;
+  }
+}
+.speech-left {
+  position: absolute;
+  left: -57px;
+  top: 58px;
+}
+.speech-right {
+  position: absolute;
+  bottom: 43px;
+  right: -67px;
 }
 
 @media only screen and (max-width: 1007px) {

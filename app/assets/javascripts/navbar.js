@@ -10,6 +10,12 @@ $(document).ready(function(){
       scrollTop: $($(this).attr('href').substr(1)).offset().top - 50
     }, 1500);
  })
+
+  $(".arrow").click(function(){
+  $('html, body').animate({
+      scrollTop: $($(this).attr('href').substr(1)).offset().top - 90
+    }, 1500);
+ })
   // if (window.location.hash === '#whatwedo') {
   //   $('#what-we-do-link').addClass('active');
   // } else {
