@@ -37,4 +37,11 @@ $(document).ready(function(){
       $(".navbar-enganche-link").removeClass("active");
     }
   });
+
+
+  $(".arrow").click(function(){
+  $('html, body').animate({
+      scrollTop: $($(this).attr('href').substr(1)).offset().top - 90
+    }, 1500);
+ })
 });

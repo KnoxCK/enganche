@@ -53,3 +53,35 @@
 	color: #4D4D4D;
 	text-decoration: none;
 }
+
+@media only screen and (max-width: 679px) {
+	.contact-para {
+		width: auto;
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	.contact-details {
+		flex-direction: column;
+	}
+	.enquiries {
+		padding-bottom: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

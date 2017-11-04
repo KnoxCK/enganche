@@ -1,5 +1,7 @@
 .banner {
-  background-image: linear-gradient(-225deg, rgba(0,10,50,0.1) 50%, rgba(0,36,61,0.6) 80%), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1508702122/abigail-keenan-17652_ruob4b.jpg');
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.50),
+      rgba(0, 0, 0, 0.70)), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1509707301/IMG_3245i_u5lcm9.jpg');
   color: white;
   text-align: center;
   height: 100vh;
@@ -10,6 +12,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+  // margin-top: 100px;
 }
 .banner-content {
   margin-top: 50px;
@@ -24,3 +27,14 @@
     font-size: 18px;
   }
 }
+.arrow {
+  width: 110px;
+}
+.arrow:hover {
+  -webkit-transform: scale(1);
+}
+
+
+
+
+

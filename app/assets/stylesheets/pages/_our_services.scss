@@ -31,3 +31,16 @@
   padding: 0 30px;
   width: 500px;
 }
+@media only screen and (max-width: 1011px) {
+  .why-enganche-section  {
+    padding: 10px 40px;
+  }
+}
+@media only screen and (max-width: 847px) {
+  .why-enganche-section  {
+    flex-wrap: wrap;
+  }
+  .why-enganche-section  {
+    padding: 0px 10px;
+  }
+}

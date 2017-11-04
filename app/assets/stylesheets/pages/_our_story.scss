@@ -54,3 +54,24 @@
 .our-playbook-last {
 	padding-bottom: 70px;
 }
+@media only screen and (max-width: 1107px) {
+	.our-playbook-section {
+    	flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 607px) {
+	.our-playbook-ind {
+    	width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
