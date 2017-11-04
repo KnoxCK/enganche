@@ -12,7 +12,7 @@
     margin-top: 7px;
   }
   h4 {
-    font-size: 17px;
+    font-size: 17px;  
     // padding-bottom: 20px;
   }
   p {
@@ -21,9 +21,19 @@
     font-size: 14px;
   }
 }
+.why-enganche {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.why-intro {
+  width: 500px;
+  padding-bottom: 15px;
+}
 .why-enganche-section {
   display: flex;
-  justify-content: center;
   padding: 10px 100px;
 }
 .why-enganche-ind {
