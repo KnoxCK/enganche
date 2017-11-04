@@ -17,6 +17,10 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery-smooth-scroll'
+end
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
