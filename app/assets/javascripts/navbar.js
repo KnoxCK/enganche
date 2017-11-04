@@ -1,14 +1,19 @@
 $(document).ready(function(){
-  // var hash = (window.location.hash);
-  // $(hash + "-nav").addClass("active");
-  // console.log("#nav-" + hash);
-
   $(".navbar-enganche-link").click(function(){
     $(".navbar-enganche-link").removeClass("active");
-    // $(this).addClass("active");
-    $('html, body').animate({
-      scrollTop: $($(this).attr('href').substr(1)).offset().top - 50
-    }, 2000);
+    if ($(this).prop('id') === 'playbook-nav') {
+      $.smoothScroll({
+        scrollTarget: $(this).attr('href').substr(1),
+        offset: 50,
+        speed: 1500
+      });
+    } else {
+      $.smoothScroll({
+        scrollTarget: $(this).attr('href').substr(1),
+        offset: -50,
+        speed: 1500
+      });
+    }
   })
 
   $(window).scroll(function(){
@@ -38,10 +43,11 @@ $(document).ready(function(){
     }
   });
 
-
   $(".arrow").click(function(){
-  $('html, body').animate({
-      scrollTop: $($(this).attr('href').substr(1)).offset().top - 90
-    }, 1500);
- })
+    $.smoothScroll({
+      scrollTarget: $(this).attr('href').substr(1),
+      offset: 50,
+      speed: 1000
+    });
+  })
 });
