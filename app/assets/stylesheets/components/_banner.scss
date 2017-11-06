@@ -1,7 +1,7 @@
 .banner {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.50),
-      rgba(0, 0, 0, 0.70)), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1509964070/ATP_mq8vlg.jpg');
+  // background-image: linear-gradient(
+  //     rgba(0, 0, 0, 0.50),
+  //     rgba(0, 0, 0, 0.70)), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1509964070/ATP_mq8vlg.jpg');
   color: white;
   text-align: center;
   height: 100vh;
@@ -13,6 +13,12 @@
   align-items: center;
   align-content: center;
   // margin-top: 100px;
+}
+.carousel-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .banner-content {
   position: absolute;
@@ -33,8 +39,7 @@
     // padding-right: 123px;
     position: absolute;
     bottom: 23px;
-    width: 150px;
-    padding-right: 73px;
+    width: 84px;
 }
 .arrow:hover {
   -webkit-transform: scale(1);
@@ -45,9 +50,14 @@
   border: none;
 }
 .arrow:focus {
-  outline:0;
+  outline: 0;
 }
-
-
-
+.carousel-inner .item { 
+  img {
+    height: 100vh;
+  }
+}
+.faded-carousel {
+  background:rgba(0,0,0,0.5);
+}
 
