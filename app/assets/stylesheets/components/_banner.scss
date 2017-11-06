@@ -54,8 +54,9 @@
 }
 .carousel-inner .item { 
   img {
-    height: 100vh;
+    height: calc(100vh - 100px);
     width: 100vw;
+    margin-top: 100px;
   }
 }
 .faded-carousel {
