@@ -4,10 +4,18 @@ $(document).ready(function(){
     if ($(this).prop('id') === 'playbook-nav') {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
-        offset: 50,
+        offset: -90,
         speed: 1500
       });
-    } else {
+    } 
+    else if ($(this).prop('id') === 'about-nav') {
+      $.smoothScroll({
+        scrollTarget: $(this).attr('href').substr(1),
+        offset: -65,
+        speed: 1500
+      });
+    } 
+    else {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
         offset: -50,
@@ -46,7 +54,7 @@ $(document).ready(function(){
   $(".arrow").click(function(){
     $.smoothScroll({
       scrollTarget: $(this).attr('href').substr(1),
-      offset: 50,
+      offset: -50,
       speed: 1000
     });
   })
