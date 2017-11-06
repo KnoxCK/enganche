@@ -18,10 +18,16 @@
 .playbook-intro {
 	h4 {
     	text-align: center;
-    	width: 600px;
-    	color: #4D4D4D;
-    	font-size: 16px;
-   		margin-bottom: 54px;
+	    width: 600px;
+	    color: #4D4D4D;
+	    font-size: 18px;
+	    margin-bottom: 54px;
+	    letter-spacing: 0.5px;
+	    line-height: 25px;
+   	}
+   	span {
+   		color: #316BA1;
+   		font-weight: bold;
    	}
 }
 .our-playbook-title {
