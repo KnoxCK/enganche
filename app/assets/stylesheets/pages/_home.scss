@@ -19,7 +19,6 @@
   }
 }
 .about {
-  margin-top: 150px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -80,7 +79,10 @@
   bottom: 43px;
   right: -67px;
 }
-
+.blue {
+  border-top: 10px solid #2C6BA4;
+  margin: 0;
+}
 @media only screen and (max-width: 1007px) {
   .section-padding {
     padding-right: 50px;
