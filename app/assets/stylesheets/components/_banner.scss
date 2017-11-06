@@ -62,4 +62,14 @@
 .faded-carousel {
   background:rgba(0,0,0,0.5);
 }
+@media only screen and (max-width: 980px){ 
+  .carousel-inner .item { 
+    img {
+      margin-top: 70px;
+      height: calc(100vh - 70px);
+    }
+  }
+}
+
+
 
