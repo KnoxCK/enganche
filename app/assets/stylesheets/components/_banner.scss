@@ -29,10 +29,12 @@
   }
 }
 .arrow {
-    width: 250px;
-    padding-right: 123px;
+    // width: 250px;
+    // padding-right: 123px;
     position: absolute;
     bottom: 23px;
+    width: 181px;
+    padding-right: 93px;
 }
 .arrow:hover {
   -webkit-transform: scale(1);
