@@ -1,24 +1,25 @@
-.banner {
-  // background-image: linear-gradient(
-  //     rgba(0, 0, 0, 0.50),
-  //     rgba(0, 0, 0, 0.70)), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1509964070/ATP_mq8vlg.jpg');
-  color: white;
-  text-align: center;
-  height: 100vh;
-  width: 100%;
-  background-size: cover !important;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  // margin-top: 100px;
-}
+// .banner {
+//   // background-image: linear-gradient(
+//   //     rgba(0, 0, 0, 0.50),
+//   //     rgba(0, 0, 0, 0.70)), url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1509964070/ATP_mq8vlg.jpg');
+//   color: white;
+//   text-align: center;
+//   height: 100vh;
+//   width: 100%;
+//   background-size: cover !important;
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   align-content: center;
+//   // margin-top: 100px;
+// }
 .carousel-banner {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+  background-size: cover !important;
 }
 .banner-content {
   position: absolute;
@@ -59,15 +60,17 @@
     margin-top: 100px;
   }
 }
-.faded-carousel {
-  background:rgba(0,0,0,0.5);
-}
-@media only screen and (max-width: 980px){ 
+@media only screen and (max-width: 991px){ 
   .carousel-inner .item { 
     img {
       margin-top: 70px;
       height: calc(100vh - 70px);
     }
+  }
+}
+@media only screen and (max-width: 600px){ 
+  .banner { 
+    background-position: center;
   }
 }
 

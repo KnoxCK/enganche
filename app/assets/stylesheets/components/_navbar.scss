@@ -101,6 +101,15 @@
   padding: 33px;
   margin-top: 22px;
 }
+@media only screen and (max-width: 1137px){
+  .navbar-enganche-link {
+    margin: 0;
+  }
+  .navbar-enganche-brand img {
+      width: 185px;
+      margin: 0 20px;
+  }
+}
 @media only screen and (max-width: 991px){
   .navbar-enganche {
     height: 70px;
