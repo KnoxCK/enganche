@@ -4,17 +4,17 @@ $(document).ready(function(){
     if ($(this).prop('id') === 'playbook-nav') {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
-        offset: -90,
+        offset: -250,
         speed: 1500
       });
     } 
-    else if ($(this).prop('id') === 'about-nav') {
-      $.smoothScroll({
-        scrollTarget: $(this).attr('href').substr(1),
-        offset: -65,
-        speed: 1500
-      });
-    } 
+    // else if ($(this).prop('id') === 'about-nav') {
+    //   $.smoothScroll({
+    //     scrollTarget: $(this).attr('href').substr(1),
+    //     offset: -65,
+    //     speed: 1500
+    //   });
+    // } 
     else {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
