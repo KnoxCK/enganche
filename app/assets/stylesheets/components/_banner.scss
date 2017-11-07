@@ -23,7 +23,7 @@
 }
 .banner-content {
   position: absolute;
-  top: 30%;
+  top: 11%;
   left: 7%;
   h4 {
     color: white;
@@ -67,14 +67,18 @@
   img {
     height: calc(100vh - 100px);
     width: 100vw;
-    margin-top: 100px;
   }
 }
-.carousel-inner{overflow:visible}
+.carousel-inner {
+  overflow: visible;
+  margin-top: 100px;
+}
 @media only screen and (max-width: 991px){ 
+  .carousel-inner {
+    margin-top: 70px;
+  }
   .carousel-inner .item { 
     img {
-      margin-top: 70px;
       height: calc(100vh - 70px);
     }
   }
