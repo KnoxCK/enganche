@@ -17,27 +17,14 @@
 .carousel-banner {
   display: flex;
   justify-content: center;
-  align-items: center;
-  align-content: center;
+  // align-items: center;
+  // align-content: center;
+  // z-index: 100;
 }
 .banner-content {
   position: absolute;
   top: 30%;
   left: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  h2 {
-    font-size: 32px;
-    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  }
-  p {
-    width: 570px;
-    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);  
-    margin-top: 35px;
-    font-size: 18px;
-  }
   h4 {
     color: white;
     text-align: center;
@@ -67,7 +54,6 @@
     width: 84px;
 }
 .arrow:hover {
-  -webkit-transform: scale(1);
   cursor: pointer;
 }
 .arrow:active {
@@ -83,9 +69,6 @@
     width: 100vw;
     margin-top: 100px;
   }
-}
-.faded-carousel {
-  background:rgba(0,0,0,0.5);
 }
 @media only screen and (max-width: 991px){ 
   .carousel-inner .item { 
