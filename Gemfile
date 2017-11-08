@@ -16,6 +16,7 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
+gem 'coffee-rails'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery-smooth-scroll'
