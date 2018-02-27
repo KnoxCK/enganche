@@ -1,5 +1,25 @@
-.playbook-wrapper {
+.about-wrapper {
 	background-color: #F5F5F5;
+	h3 {
+		padding-top: 60px;
+		font-size: 24px;
+	}
+	h4 {
+   		font-size: 22px;
+   		color: #316BA1;
+   		font-weight: bold;
+   	}
+   	hr {
+   	 	margin-top: 25px;
+		margin-bottom: 25px;
+		border: 2px solid #316BA1;
+		width: 59px;
+	}
+	p {
+		padding: 20px;
+	}
+}
+.playbook-wrapper {
     color: white;
    	display: flex;
     flex-direction: column;
@@ -16,13 +36,9 @@
 		width: 59px;
 	}
 }
-.playbook-intro {
-	display: flex;
-    flex-direction: column;
-    align-items: center;
+.about-intro {
 	h4 {
     	text-align: center;
-	    width: 771px;
 	    color: #4D4D4D;
 	    font-size: 24px;
    		margin: 70px 0;
@@ -36,7 +52,41 @@
    		text-align: center;
    		font-size: 15px;
    		color: #4D4D4D;
-   		width: 600px;
+   		margin: 30px 0 37px 0;
+   	}
+}
+.about-columns {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	h3 {
+   		font-size: 24px;
+   		text-align: center;
+   		color: #4D4D4D;
+   	}
+}
+.about-column {
+	width: 550px;
+	padding: 0 20px;
+	text-align: center;
+}
+.playbook-intro {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	h4 {
+    	text-align: center;
+	    width: 771px;
+	    color: #4D4D4D;
+	    font-size: 24px;
+   		margin: 70px 0;
+	    letter-spacing: 0.2px;
+   	}
+   	p {
+   		text-align: center;
+   		font-size: 15px;
+   		color: #4D4D4D;
+   		width: 941px;
    		margin: 12px 0 37px 0;
    	}
 }
@@ -54,6 +104,8 @@
 	align-content: center;
 	justify-content: center;
 	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .our-playbook-ind {
 	display: flex;
@@ -62,20 +114,20 @@
 	align-content: center;
 	text-align: center;
 	padding: 10px 20px;
-	width: 550px;
+	width: 400px;
 	img {
-		width: 100px;
+		width: 80px;
 	}
 	p {
 		color: #888888;
 		margin-top: 0px;
 		font-weight: lighter;
 		font-size: 15px;
-		width: 550px;
+		width: 400px;
 	}
 	h4 {
 		margin-top: 20px;
-		width: 500px;
+		width: 400px;
 		color: #4D4D4D;
 		font-size: 18px;
 	}
@@ -83,9 +135,16 @@
 .our-playbook-last {
 	padding-bottom: 70px;
 }
-@media only screen and (max-width: 1107px) {
+@media only screen and (max-width: 1207px) {
 	.our-playbook-section {
     	flex-wrap: wrap;
+    }
+    .playbook-intro {
+    	p {
+    		width: auto;
+    		padding-left: 20px;
+    		padding-right: 20px;
+    	}
     }
 }
 @media only screen and (max-width: 816px) {
@@ -95,12 +154,6 @@
 	    padding-right: 20px;
 	    padding-left: 20px;
 	    display: inline;
-	  }
-	 p {
-	 	width: auto;
-	    margin: 12px 0 37px 0;
-	    padding-right: 20px;
-	    padding-left: 20px;
 	  }
 	}
 }
