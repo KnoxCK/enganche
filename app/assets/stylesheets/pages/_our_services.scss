@@ -4,7 +4,7 @@
   background-size: cover !important; 
   width: 100%;
   background-position: center; 
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   h3 {
     padding-top: 100px;
     padding-bottom: 20px;
@@ -45,6 +45,16 @@
   border-top: 7px solid #FE4816;
   margin: 0;
 }
+.why-enganche-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px 70px 0 70px;
+  p {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 1086px) {
   .why-enganche-section  {
     padding: 10px 40px;
@@ -62,10 +72,14 @@
 }
 @media only screen and (max-width: 716px) {
   .why-intro {
-      width: auto;
-      padding-bottom: 15px;
-      padding-left: 20px;
-      padding-right: 20px;
+    width: auto;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .why-enganche-story {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .why-enganche-ind {
     text-align: center;

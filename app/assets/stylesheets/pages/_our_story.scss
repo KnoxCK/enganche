@@ -19,6 +19,35 @@
 		padding: 20px;
 	}
 }
+.about-intro {
+	h4 {
+    	text-align: center;
+	    color: #4D4D4D;
+	    font-size: 24px;
+   		margin: 70px 20px;
+	    letter-spacing: 0.2px;
+   	}
+   	span {
+   		color: #316BA1;
+   		font-weight: bold;
+   	}
+}
+.about-columns {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding-bottom: 20px;
+	h3 {
+   		font-size: 24px;
+   		text-align: center;
+   		color: #4D4D4D;
+   	}
+}
+.about-column {
+	width: 600px;
+	padding: 0 20px;
+	text-align: center;
+}
 .playbook-wrapper {
     color: white;
    	display: flex;
@@ -35,40 +64,6 @@
 		border: 2px solid #316BA1;
 		width: 59px;
 	}
-}
-.about-intro {
-	h4 {
-    	text-align: center;
-	    color: #4D4D4D;
-	    font-size: 24px;
-   		margin: 70px 0;
-	    letter-spacing: 0.2px;
-   	}
-   	span {
-   		color: #316BA1;
-   		font-weight: bold;
-   	}
-   	p {
-   		text-align: center;
-   		font-size: 15px;
-   		color: #4D4D4D;
-   		margin: 30px 0 37px 0;
-   	}
-}
-.about-columns {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	h3 {
-   		font-size: 24px;
-   		text-align: center;
-   		color: #4D4D4D;
-   	}
-}
-.about-column {
-	width: 550px;
-	padding: 0 20px;
-	text-align: center;
 }
 .playbook-intro {
 	display: flex;
@@ -113,10 +108,10 @@
 	align-items: center;
 	align-content: center;
 	text-align: center;
-	padding: 10px 20px;
+	margin: 10px 10px;
 	width: 400px;
 	img {
-		width: 80px;
+		height: 80px;
 	}
 	p {
 		color: #888888;
@@ -156,6 +151,10 @@
 	    display: inline;
 	  }
 	}
+	.about-columns { 
+		flex-direction: column;
+		align-items: center;
+	}
 }
 @media only screen and (max-width: 570px) {
 	.our-playbook-ind {
@@ -166,6 +165,9 @@
     	p {
     		width: auto;
     	}
+    }
+    .about-column {
+    	width: auto;
     }
 }
 
