@@ -5,6 +5,9 @@
   <div class="navbar-enganche-main hidden-xs hidden-sm">
 
 <!-- Navbar menu -->
+    <div class="link-outline">
+      <%= link_to "HOME", root_path, class: "navbar-enganche-link", id: "home-nav" %>
+    </div>
     <!-- About link -->
     <div class="link-outline">
       <%= link_to "OUR PLAYBOOK", root_path(:anchor => "about"), class: "navbar-enganche-link", id: "about-nav" %>
@@ -24,7 +27,10 @@
     <div class="link-outline">
       <%= link_to "WHY ENGANCHE 10?", root_path(:anchor => "why-enganche"), class: "navbar-enganche-link", id: "why-enganche-nav" %>
     </div>
-
+    <!-- Our Story link -->
+    <div class="link-outline">
+      <%= link_to "OUR STORY", root_path(:anchor => "our-story"), class: "navbar-enganche-link", id: "story-nav" %>
+    </div>
     <!-- Contact link -->
     <div class="link-outline">
       <%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link", id: "contact-nav" %>
@@ -42,6 +48,7 @@
           <li><%= link_to "OUR PLAYBOOK", root_path(:anchor => "about"), class: "navbar-enganche-link", id: "about-nav" %></li>
         <li><%= link_to "WHY SPONSORSHIP?", root_path(:anchor => "sponsorship"), class: "navbar-enganche-link", id: "sponsorship-nav" %></li>
         <li><%= link_to "WHY ENGANCHE 10?", root_path(:anchor => "why-enganche"), class: "navbar-enganche-link" %></li>
+        <li><%= link_to "OUR STORY", root_path(:anchor => "story-nav"), class: "navbar-enganche-link", id: "story" %></li>
         <li><%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link" %></li>
         </ul>
       </div>

@@ -15,6 +15,20 @@ $(document).ready(function(){
         speed: 1500
       });
     } 
+    else if ($(this).prop('id') === 'why-enganche-nav') {
+      $.smoothScroll({
+        scrollTarget: $(this).attr('href').substr(1),
+        offset: -100,
+        speed: 1500
+      });
+    } 
+    else if ($(this).prop('id') === 'story-nav') {
+      $.smoothScroll({
+        scrollTarget: $(this).attr('href').substr(1),
+        offset: -200,
+        speed: 1500
+      });
+    } 
     else {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
@@ -31,6 +45,7 @@ $(document).ready(function(){
     var sponsorshipTop = $('#sponsorship').offset().top;
     var aboutTop = $('#about').offset().top;
     var whyTop = $('#why-enganche').offset().top;
+    var storyTop = $('#our-story').offset().top;
     var contactTop = $('#contact').offset().top;
 
     if (contactTop < half) {
@@ -39,6 +54,9 @@ $(document).ready(function(){
     } else if (whyTop < half) {
       $(".navbar-enganche-link").removeClass("active");
       $('#why-enganche-nav').addClass('active');
+    } else if (storyTop < half) {
+      $(".navbar-enganche-link").removeClass("active");
+      $('#story-nav').addClass('active');
     } else if (aboutTop < half) {
       $(".navbar-enganche-link").removeClass("active");
       $('#about-nav').addClass('active');
