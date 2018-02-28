@@ -25,7 +25,7 @@ $(document).ready(function(){
     else if ($(this).prop('id') === 'story-nav') {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
-        offset: -200,
+        offset: -230,
         speed: 1500
       });
     } 
