@@ -1,27 +1,32 @@
 .about-wrapper {
-	background-color: #F5F5F5;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	h3 {
 		padding-top: 60px;
 		font-size: 24px;
 	}
 	h4 {
    		font-size: 22px;
+   		padding-bottom: 20px;
    		color: #316BA1;
    		font-weight: bold;
+   		text-align: center;
    	}
    	hr {
    	 	margin-top: 25px;
-		margin-bottom: 25px;
 		border: 2px solid #316BA1;
 		width: 59px;
 	}
 	p {
-		padding: 20px;
+		padding: 0 20px 20px 20px;
+		font-size: 15px;
 	}
 }
 .about-intro {
 	h4 {
-    	text-align: center;
+    	text-align: left;
 	    color: #4D4D4D;
 	    font-size: 24px;
    		margin: 70px 20px;
@@ -44,11 +49,12 @@
    	}
 }
 .about-column {
-	width: 600px;
+	width: 500px;
 	padding: 0 20px;
-	text-align: center;
+	text-align: justify;
 }
 .playbook-wrapper {
+	background-color: #F5F5F5;
     color: white;
    	display: flex;
     flex-direction: column;
