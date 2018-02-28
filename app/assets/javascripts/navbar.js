@@ -51,18 +51,18 @@ $(document).ready(function(){
     if (contactTop < half) {
       $(".navbar-enganche-link").removeClass("active");
       $('#contact-nav').addClass('active');
-    } else if (whyTop < half) {
-      $(".navbar-enganche-link").removeClass("active");
-      $('#why-enganche-nav').addClass('active');
     } else if (storyTop < half) {
       $(".navbar-enganche-link").removeClass("active");
       $('#story-nav').addClass('active');
-    } else if (aboutTop < half) {
+    } else if (whyTop < half) {
       $(".navbar-enganche-link").removeClass("active");
-      $('#about-nav').addClass('active');
+      $('#why-enganche-nav').addClass('active');
     } else if (sponsorshipTop < half) {
       $(".navbar-enganche-link").removeClass("active");
       $('#sponsorship-nav').addClass('active');
+    } else if (aboutTop < half) {
+      $(".navbar-enganche-link").removeClass("active");
+      $('#about-nav').addClass('active');
       console.log('oi oi')
     } else {
       $(".navbar-enganche-link").removeClass("active");
