@@ -32,8 +32,12 @@
 
   	<div class="carousel-banner">
 	  	<div class="banner-content slideUp">
-				<h4>WE ARE <span>ENGANCHE 10<br></span>THE <span>SPONSORSHIP PLAYMAKERS</span></h4>
+				<h4><span>ACHIEVE </span>YOUR <br>SPONSORSHIP <span>GOALS<span></h4>
 			<!-- <h4>WE ARE ENGANCHE 10,<br><span>THE SPONSORSHIP</span><br><strong>PLAYMAKERS</strong></h4> -->
+		</div>
+		<div class="homepage-btns">
+			<%= link_to "BRANDS", root_path(:anchor => "about"), class: "btn btn-warning" %>
+			<%= link_to "SPONSORSHIP SEEKERS", root_path(:anchor => "about") ,class: "btn btn-default" %>
 		</div>
 		<%= link_to root_path(:anchor => "about"), class: "arrow hidden-xs fadeIn"  do %>
 			<%= image_tag "arrow-white.png", class: "arrow" %>
@@ -60,9 +64,11 @@
 	<h4>WE ARE A SPECIALIST <span>SPORTS SPONSORSHIP AND ACTIVATION</span> AGENCY</h4>
 </div> -->
 <div class="about-wrapper">
-	<h3 class= "about-title text-center">OUR PLAYBOOK</h3>
-	<hr><div id="about"></div>
-	<span><p>We specialise in brand partnerships and activation</p></span>
+	<h3 class= "about-title text-center">E10 works with brands and sponsorship seekers to make significant <br>and lasting improvements to their sponsorship performance.</h3><br></br>
+	<div id="about"></div>
+	<!-- 
+	<hr>
+	<span><p>E10 works with brands and sponsorship seekers to make significant and lasting improvements to their sponsorship performance.</p></span>
 	<div class="about-columns">
 		<div class="about-column">
 			<h4>SPONSORSHIP STRATEGY</h4>
@@ -81,63 +87,46 @@
 			<br></br>
 			From corporate hospitality to fan engagement and event management, we <strong>plan and execute innovative and bespoke activations</strong> to meet each client’s specific requirements meaning we’re perfectly positioned to support you at any stage of your marketing activity.
 			</p>
-		</div>
+		</div> -->
 	</div>
 </div>
 <hr class="blue">
-<div class="playbook-wrapper">
-	<h3 class= "our-playbook-title text-center">WHY SPONSORSHIP?</h3>
+<div class="brands-wrapper">
+	<h3 class= "brands-title text-center">Brands – are you looking to invest in sponsorship? 
+</h3>
 	<hr><div id="sponsorship"></div>
-	<div class="playbook-intro">
-		<p>Sport events, stadia, teams and athletes have built large and passionate audiences that are heavily engaged and open to communication which is increasingly rare to find within the current media landscape.
+	<div class="brands-intro">
+		<p>Our previous experience as in-house sponsorship buyers for large global brands allows us to understand your business challenges and marketing objectives when looking for new properties. 
 		<br></br>
-		Working across all major sports, our team demonstrates how sponsorship can help you build an emotional connection with these audiences and provide tailor-made solutions to help achieve your objectives:
+		Starting from your brief, E10 provide expert advice and save you time and resources identifying exciting and relevant opportunities through our extensive network of rights holders across sports, entertainment and the arts.
+		<br></br>
+		We have in-depth knowledge of the current market and will work with you to secure the assets you require to deliver real value for your business, for the best possible price.
 		</p>
 	</div>
-	<div class="our-playbook-section">
-		<div class="our-playbook-ind">
+	<div class="brands-section">
+		<div class="brands-ind">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519732883/Access_kkkueq.png" %>
-			<h4>ACCESS</h4>
-			<p>Gain direct access to your target market and audience databases to generate new leads.</p>
+			<h4>SPONSORSHIP STRATEGY</h4>
 		</div>
-		<div class="our-playbook-ind">
+		<div class="brands-ind">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519732883/Sales_qrkf4r.png" %>
-			<h4>SALES</h4>
-			<p>Drive sales and grow market share through converting your target audience into loyal customers.</p>
+			<h4>PROPERTY IDENTIFICATION</h4>
 		</div>
-		<div class="our-playbook-ind">
+		<div class="brands-ind">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1510229048/Activation_fr0kte.png" %>
-			<h4>ENGAGEMENT</h4>
-			<p>Increase brand loyalty by enhancing what fans love and offering them something of value.</p>
+			<h4>PROPERTY EVALUATION</h4>
 		</div>
-	</div>
-	<div class="our-playbook-section">
-		<div class="our-playbook-ind">
+		<div class="brands-ind">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519732884/Awareness_pqdper.png" %>
-			<h4>AWARENESS</h4>
-			<p>Increase your visibility and brand awareness through media exposure and improve the way you’re perceived by associating yourself with positive experiences.</p>
+			<h4>ASSET AUDIT</h4>
 		</div>
-		<div class="our-playbook-ind">
+		<div class="brands-ind">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519735579/Relationships_th1jtu.png" %>
-			<h4>RELATIONSHIPS</h4>
-			<p>Strengthen customer relationships through hosting and face-to-face interaction in hospitality while enjoying unforgettable experiences.</p>
+			<h4>CONTRACT NEGOTIATION</h4>
 		</div>
-		<div class="our-playbook-ind">
+		<div class="brands-ind">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519733181/CSR_vqfsk7.png" %>
-			<h4>CSR</h4>
-			<p>Support a good cause and create positive publicity that encourages potential customers to choose your products or services.</p>
-		</div>
-	</div>
-	<div class="our-playbook-section our-playbook-last">
-		<div class="our-playbook-ind">
-			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519733181/Brand_Positioning_jdnkb5.png" %>
-			<h4>BRAND POSITIONING</h4>
-			<p>Stand out from your competitors and position your brand in uncontested market segments with category exclusivity.</p>
-		</div>
-		<div class="our-playbook-ind">
-			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1508782108/Content_yek2ub.png" %>
-			<h4>CONTENT</h4>
-			<p>Access unique and engaging content that captures your customer’s attention and makes your product more recognisable.</p>
+			<h4>STRATEGY IMPLEMENTATION</h4>
 		</div>
 	</div>
 </div>

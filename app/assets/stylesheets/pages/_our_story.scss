@@ -57,8 +57,8 @@
 	padding: 0 20px;
 	text-align: justify;
 }
-.playbook-wrapper {
-	background-color: #F5F5F5;
+.brands-wrapper {
+	background-color: #316BA1;
     color: white;
    	display: flex;
     flex-direction: column;
@@ -71,11 +71,11 @@
    	hr {
    	 	margin-top: 10px;
 		margin-bottom: 25px;
-		border: 2px solid #316BA1;
+		border: 2px solid white;
 		width: 59px;
 	}
 }
-.playbook-intro {
+.brands-intro {
 	display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,29 +84,29 @@
 	h4 {
     	text-align: center;
 	    width: 771px;
-	    color: #4D4D4D;
+	    color: white;
 	    font-size: 24px;
    		margin: 70px 0;
 	    letter-spacing: 0.2px;
    	}
    	p {
-   		text-align: center;
+   		text-align: justify;
 		font-size: 15px;
-		color: #4D4D4D;
+		color: white;
 		width: 782px;
    		margin-bottom: 37px;
    	}
 }
-.our-playbook-title {
-	color: #4D4D4D;
+.brands-title {
+	color: white;
 }
-.our-playbook-image img {
+.brands-image img {
 	width: 100%;
 }
-.our-playbook-aside {
+.brands-aside {
 	padding-bottom: 40px;
 }
-.our-playbook-section {
+.brands-section {
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -114,14 +114,14 @@
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.our-playbook-ind {
+.brands-ind {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-content: center;
 	text-align: center;
-	margin: 10px 10px;
-	width: 400px;
+	margin: 10px 20px;
+	width: 100px;
 	img {
 		height: 80px;
 	}
@@ -133,20 +133,20 @@
 		width: 400px;
 	}
 	h4 {
-		margin-top: 20px;
-		width: 400px;
-		color: #4D4D4D;
-		font-size: 18px;
+		margin-top: 10px;
+		width: 100px;
+		color: white;
+		font-size: 14px;
 	}
 }
-.our-playbook-last {
+.brands-last {
 	padding-bottom: 40px;
 }
 @media only screen and (max-width: 1207px) {
-	.our-playbook-section {
+	.brands-section {
     	flex-wrap: wrap;
     }
-    .playbook-intro {
+    .brands-intro {
     	p {
     		width: auto;
     		padding-left: 20px;
@@ -155,7 +155,7 @@
     }
 }
 @media only screen and (max-width: 816px) {
-  	.playbook-intro {
+  	.brands-intro {
 	    padding-left: 20px;
 	    padding-right: 20px;
 	  h4 {
@@ -169,7 +169,7 @@
 	}
 }
 @media only screen and (max-width: 570px) {
-	.our-playbook-ind {
+	.brands-ind {
     	width: auto;
     	h4 {
     		width: auto;
