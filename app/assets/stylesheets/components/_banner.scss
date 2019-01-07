@@ -55,11 +55,9 @@
   }
 }
 .arrow {
-    // width: 250px;
-    // padding-right: 123px;
-    position: absolute;
-    bottom: 23px;
-    width: 84px;
+  position: absolute;
+  bottom: 23px;
+  width: 84px;
 }
 .arrow:hover {
   cursor: pointer;
@@ -71,6 +69,35 @@
 .arrow:focus {
   outline: 0;
 }
+.homepage-btns {
+  position: absolute;
+  bottom: 40px;
+  width: 84px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border-radius: 25px;
+  width: auto;
+  padding: 11px 24px;
+  margin: 0 8px;
+}
+.btn-primary {
+  background-color: #3675A6;
+}
+.btn-primary:hover {
+  background-color: #3675A6;
+  opacity: 0.9;
+}
+.btn-default {
+  background-color: transparent;
+  border: 2px white solid;
+  color: white;
+}
+.btn-default:hover {
+  color: #3675A6;
+}
+
 @media only screen and (max-width: 991px){ 
   .carousel-inner {
     margin-top: 70px;

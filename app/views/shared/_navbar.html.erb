@@ -5,36 +5,40 @@
   <div class="navbar-enganche-main hidden-xs hidden-sm">
 
 <!-- Navbar menu -->
+
+    <!-- Logo -->
+    <%= link_to root_path, class: "navbar-enganche-brand" do %>
+      <%= image_tag "E10 Logo.png" %>
+    <% end %>
     <div class="link-outline">
       <%= link_to "HOME", root_path, class: "navbar-enganche-link", id: "home-nav" %>
     </div>
+
     <!-- About link -->
-    <div class="link-outline">
+    <!-- <div class="link-outline">
       <%= link_to "OUR PLAYBOOK", root_path(:anchor => "about"), class: "navbar-enganche-link", id: "about-nav" %>
-    </div>
+    </div> -->
 
     <!-- Our Playbook link -->
     <div class="link-outline">
-      <%= link_to "WHY SPONSORSHIP?", root_path(:anchor => "sponsorship"), class: "navbar-enganche-link", id: "sponsorship-nav" %>
+      <%= link_to "BRANDS", root_path(:anchor => "sponsorship"), class: "navbar-enganche-link", id: "sponsorship-nav" %>
     </div>
 
-    <!-- Logo -->
-  <%= link_to root_path, class: "navbar-enganche-brand" do %>
-    <%= image_tag "logo_small_bl.png" %>
-  <% end %>
+   <!-- Sponsorship seekers -->
+    <div class="link-outline">
+      <%= link_to "SPONSORSHIP SEEKERS", root_path(:anchor => "our-story"), class: "navbar-enganche-link", id: "story-nav" %>
+    </div>
 
-    <!-- Why Enganche link -->
+    <!-- Our Story -->
     <div class="link-outline">
-      <%= link_to "WHY ENGANCHE 10?", root_path(:anchor => "why-enganche"), class: "navbar-enganche-link", id: "why-enganche-nav" %>
+      <%= link_to "OUR STORY", root_path(:anchor => "why-enganche"), class: "navbar-enganche-link", id: "why-enganche-nav" %>
     </div>
-    <!-- Our Story link -->
-    <div class="link-outline">
-      <%= link_to "OUR STORY", root_path(:anchor => "our-story"), class: "navbar-enganche-link", id: "story-nav" %>
-    </div>
+
     <!-- Contact link -->
     <div class="link-outline">
       <%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link", id: "contact-nav" %>
     </div>
+    
   </div>
 
   <!-- Dropdown list appearing on mobile only -->
