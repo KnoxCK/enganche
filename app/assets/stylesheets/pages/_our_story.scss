@@ -18,8 +18,8 @@
    	}
    	hr {
    	 	margin-top: 10px;
-		border: 2px solid #316BA1;
-		width: 59px;
+		border: 1px solid #316BA1;
+		width: 40px;
 	}
 	p {
 		padding: 0 20px 20px 20px;
@@ -39,7 +39,7 @@
 	    letter-spacing: 0.2px;
    	}
    	span {
-   		color: #316BA1;
+   		color: #1A476F;
    		font-weight: bold;
    	}
 }
@@ -74,8 +74,8 @@
    	hr {
    	 	margin-top: 10px;
 		margin-bottom: 25px;
-		border: 2px solid white;
-		width: 59px;
+		border: 1px solid white;
+		width: 40px;
 	}
 }
 .brands-intro {
@@ -84,19 +84,11 @@
     align-items: center;
     padding-left: 70px;
     padding-right: 70px;
-	h4 {
-    	text-align: center;
-	    width: 771px;
-	    color: white;
-	    font-size: 24px;
-   		margin: 70px 0;
-	    letter-spacing: 0.2px;
-   	}
    	p {
    		text-align: center;
 		font-size: 15px;
 		color: white;
-		width: 782px;
+		width: 739px;
    		margin-bottom: 37px;
    	}
 }
@@ -151,7 +143,6 @@
     }
     .brands-intro {
     	p {
-    		width: auto;
     		padding-left: 20px;
     		padding-right: 20px;
     	}

@@ -2,10 +2,16 @@
 .navbar-enganche {
   padding: 0px 60px;
   background-color: white;
-  height: 100px;
+  height: 55px;
   box-shadow: 1px 1px 1px #D9D9D9;
   display: flex;
   justify-content: left;
+}
+.navbar-menu-links {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  right: 0;
 }
 #navbar-background {
   background-color: black;
@@ -22,8 +28,8 @@
 
 /* Navbar logo */
 .navbar-enganche-brand img {
-    width: 75px;
-    margin: 0 30px;
+  width: 55px;
+  margin: 0 16px 0 0;
 }
 
 /* Navbar main section (with form, links, button) */
@@ -35,17 +41,18 @@
   color: #4D4E4C;
   font-size: 14px;
   padding: 10px 15px;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 1.1px;
   line-height: 0.5px;
+  margin-right: 10px;
   &.active {
     text-decoration: none;
-    background-color: #35689F;
+    background-color: #1A476F;
     color: white;
   }
 }
 .navbar-enganche-link:hover {
-  background-color: #35689F;
+  background-color: #1A476F;
   text-decoration: none;
   color: white;
   padding: 10px 15px;

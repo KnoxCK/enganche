@@ -17,20 +17,21 @@
 .carousel-banner {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .carousel-inner .item { 
   img {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 55px);
     width: 100vw;
   }
 }
 .carousel-inner {
   overflow: visible;
-  margin-top: 100px;
+  margin-top: 55px;
 }
 .banner-content {
   position: absolute;
-  top: 11%;
+  bottom: 50vh;
   left: 0;
   right: 0;
   h4 {
@@ -71,8 +72,7 @@
 }
 .homepage-btns {
   position: absolute;
-  bottom: 40px;
-  width: 84px;
+  bottom: 34vh;
   display: flex;
   justify-content: center;
 }
@@ -83,19 +83,25 @@
   margin: 0 8px;
 }
 .btn-primary {
-  background-color: #3675A6;
+  background-color: #1A476F;
+  width: 220px;
+  border-color: #1A476F;
 }
 .btn-primary:hover {
-  background-color: #3675A6;
-  opacity: 0.9;
+  background-color: #1A476F;
+  opacity: 0.95;
+  border-color: #1A476F;
 }
 .btn-default {
   background-color: transparent;
   border: 2px white solid;
   color: white;
+  width: 220px;
 }
 .btn-default:hover {
-  color: #3675A6;
+  color: #1A476F;
+  border-color: white;
+  background-color: white;
 }
 
 @media only screen and (max-width: 991px){ 
