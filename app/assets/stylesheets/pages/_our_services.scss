@@ -6,7 +6,6 @@
   background-position: center; 
   padding-bottom: 40px;
   h2 {
-    font-size: 40px;
     margin-top: 60px;
     letter-spacing: 1px;
   }
@@ -16,8 +15,6 @@
   }
   p {
     font-weight: lighter;
-    //padding-bottom: 30px;
-    font-size: 14px;
   }
   hr {
     margin-top: 10px;
@@ -35,7 +32,7 @@
   padding-left: 40px;
 }
 .why-intro {
-  width: 730px;
+  width: 570px;
   padding-bottom: 15px;
 }
 .why-enganche-section {
@@ -62,18 +59,17 @@
   align-content: center;
   flex-direction: column;
   h2 {
-    font-size: 40px;
     margin-top: 60px;
     letter-spacing: 1px;
     color: #1A476F;
   }
-  h6 {
+   h5 {
+    font-weight: lighter;
     color: #1A476F;
   }
   p {
     text-align: justify;
-    font-size: 15px;
-    width: 739px;
+    width: 850px;
     margin-bottom: 37px;
   }
   hr {

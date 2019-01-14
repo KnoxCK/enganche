@@ -6,25 +6,17 @@
 	align-items: center;
 	align-content: center;
 	padding: 20px;
+	text-align: center;
 	p {
-		font-size: 14px;
+		font-size: 15px !important;
 		color: #D6D7D8;
 		font-weight: lighter;
+		letter-spacing: 0.5px;
+		margin-top: 10px;
 	}
 	a {
 		color: #D6D7D8;
 		text-decoration: none;
-	}
-}
-.footer-child {
-	//padding: 20px;
-	text-align: center;
-	p {
-		font-size: 12px;
-		margin-bottom: 0px;
-	}
-	a {
-		padding-bottom: 5px;
 	}
 }
 .footer-enganche10-brand img {

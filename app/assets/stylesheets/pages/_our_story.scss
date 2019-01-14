@@ -3,14 +3,12 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	h2 {
+	h3 {
 		padding: 60px 10px;
-		font-size: 30px;
 		width: 730px;
 		margin: 0;
 	}
 	h4 {
-   		font-size: 22px;
    		padding-bottom: 20px;
    		color: #316BA1;
    		font-weight: bold;
@@ -23,7 +21,6 @@
 	}
 	p {
 		padding: 0 20px 20px 20px;
-		font-size: 15px;
 	}
 	span {
 		text-align: center;
@@ -34,7 +31,6 @@
 	h4 {
     	text-align: left;
 	    color: #4D4D4D;
-	    font-size: 24px;
    		margin: 70px 20px;
 	    letter-spacing: 0.2px;
    	}
@@ -49,7 +45,6 @@
 	align-content: center;
 	padding-bottom: 20px;
 	h3 {
-   		font-size: 24px;
    		text-align: center;
    		color: #4D4D4D;
    	}
@@ -67,9 +62,11 @@
     align-items: center;
     justify-content: center;
    	h2 {
-   		font-size: 40px;
    		margin-top: 60px;
    		letter-spacing: 1px;
+   	}
+   	h5 {
+   		font-weight: lighter;
    	}
    	hr {
    	 	margin-top: 10px;
@@ -86,9 +83,8 @@
     padding-right: 70px;
    	p {
    		text-align: justify;
-		font-size: 15px;
 		color: white;
-		width: 739px;
+		width: 850px;
    		margin-bottom: 37px;
    	}
 }
@@ -120,18 +116,19 @@
 	img {
 		height: 80px;
 	}
-	p {
-		color: #888888;
-		margin-top: 0px;
-		font-weight: lighter;
-		font-size: 15px;
-		width: 400px;
-	}
 	h4 {
 		margin-top: 10px;
 		width: 100px;
 		color: white;
-		font-size: 14px;
+	}
+	h6 {
+		font-weight: lighter;
+	}
+	p {
+		color: #888888;
+		margin-top: 0px;
+		font-weight: lighter;
+		width: 400px;
 	}
 }
 .brands-last {

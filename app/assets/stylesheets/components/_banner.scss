@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  margin-left: 15px;
 }
 .carousel-inner .item { 
   img {
@@ -33,11 +34,10 @@
   bottom: 36vh;
   left: 40px;
   right: 0;
-  h4 {
+  h1 {
     color: white;
     text-align: left;
-    font-size: 60px;
-    font-weight: normal;
+    font-weight: lighter;
     margin-top: 85px;
     padding-right: 20px;
     padding-left: 20px;
@@ -84,8 +84,9 @@
 }
 .btn-primary {
   background-color: #1A476F;
-  width: 188px;
+  width: 207px;
   border-color: #1A476F;
+  letter-spacing: 0.5px;
 }
 .btn-primary:hover {
   background-color: #1A476F;
@@ -96,7 +97,8 @@
   background-color: transparent;
   border: 2px white solid;
   color: white;
-  width: 220px;
+  width: 228px;
+  letter-spacing: 0.5px;
 }
 .btn-default:hover {
   color: #1A476F;
