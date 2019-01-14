@@ -21,6 +21,7 @@ module Enganche
     config.generators do |generate|
       generate.assets false
       generate.helper false
+      config.assets.paths << Rails.root.join("app", "assets", "fonts")
     end
 
     # Settings in config/environments/* take precedence over those specified here.

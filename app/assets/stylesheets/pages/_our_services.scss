@@ -23,14 +23,16 @@
     margin-top: 10px;
     border: 1px solid white;
     width: 40px;
+    margin-left: 0.5vw;
   }
 }
 .why-enganche {
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
   display: flex;
   flex-direction: column;
+  padding-left: 40px;
 }
 .why-intro {
   width: 730px;
@@ -63,11 +65,14 @@
     font-size: 40px;
     margin-top: 60px;
     letter-spacing: 1px;
+    color: #1A476F;
+  }
+  h6 {
+    color: #1A476F;
   }
   p {
-    text-align: center;
+    text-align: justify;
     font-size: 15px;
-    color: black;
     width: 739px;
     margin-bottom: 37px;
   }

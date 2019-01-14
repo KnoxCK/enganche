@@ -1,9 +1,9 @@
 /* Main class */
 .navbar-enganche {
   padding: 0px 60px;
-  background-color: white;
+  background-color: transparent;
   height: 55px;
-  box-shadow: 1px 1px 1px #D9D9D9;
+  //box-shadow: 1px 1px 1px #D9D9D9;
   display: flex;
   justify-content: left;
 }
@@ -28,8 +28,8 @@
 
 /* Navbar logo */
 .navbar-enganche-brand img {
-  width: 55px;
-  margin: 0 16px 0 0;
+  width: 65px;
+  margin: 10px 16px 0 0;
 }
 
 /* Navbar main section (with form, links, button) */
@@ -38,7 +38,7 @@
   align-items: center;
 }
 .navbar-enganche-link {
-  color: #4D4E4C;
+  color: white;
   font-size: 14px;
   padding: 10px 15px;
   font-weight: normal;
