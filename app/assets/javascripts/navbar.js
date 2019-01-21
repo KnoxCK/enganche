@@ -11,14 +11,14 @@ $(document).ready(function(){
     else if ($(this).prop('id') === 'sponsorship-nav') {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
-        offset: -250,
+        offset: -230,
         speed: 1500
       });
     } 
     else if ($(this).prop('id') === 'why-enganche-nav') {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
-        offset: -100,
+        offset: -0,
         speed: 1500
       });
     } 
@@ -70,6 +70,20 @@ $(document).ready(function(){
   });
 
   $(".arrow").click(function(){
+    $.smoothScroll({
+      scrollTarget: $(this).attr('href').substr(1),
+      offset: -230,
+      speed: 1000
+    });
+  })
+  $(".brands-btn-landing").click(function(){
+    $.smoothScroll({
+      scrollTarget: $(this).attr('href').substr(1),
+      offset: -230,
+      speed: 1500
+    });
+  })
+  $(".spons-btn-landing").click(function(){
     $.smoothScroll({
       scrollTarget: $(this).attr('href').substr(1),
       offset: -230,
