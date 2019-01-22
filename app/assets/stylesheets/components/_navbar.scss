@@ -59,6 +59,67 @@
 }
 
 
+/* NAVBAR SCROLL */
+.navbar-enganche-scroll {
+  padding: 0px 60px;
+  background-color: transparent;
+  height: 55px;
+  //box-shadow: 1px 1px 1px #D9D9D9;
+  display: flex;
+  justify-content: left;
+}
+.navbar-menu-links-scroll {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  right: 0;
+}
+#navbar-background {
+  background-color: black;
+}
+
+/* Optional class to fix the navbar on top */
+.navbar-enganche-fixed {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1001;
+  width: 100vw;
+}
+
+/* Navbar logo */
+.navbar-enganche-brand-scroll img {
+  width: 65px;
+  margin: 10px 16px 0 0;
+}
+
+/* Navbar main section (with form, links, button) */
+.navbar-enganche-main-scroll {
+  display: flex;
+  align-items: center;
+}
+.navbar-enganche-link {
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+  line-height: 0.5px;
+  margin-right: 10px;
+  &.active {
+    text-decoration: none;
+    background-color: #1A476F;
+    color: white;
+  }
+}
+.navbar-enganche-link:hover {
+  background-color: #1A476F;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+
 
 /* Navbar dropdown menu */
 .navbar-enganche-dropdown-menu {
@@ -106,6 +167,8 @@
   padding: 33px;
   margin-top: 22px;
 }
+
+
 @media only screen and (max-width: 1263px){
   .navbar-enganche {
     padding: 0px 10px;
