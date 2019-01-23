@@ -69,13 +69,13 @@ $(document).ready(function(){
     }
   });
 
-  $(".arrow").click(function(){
-    $.smoothScroll({
-      scrollTarget: $(this).attr('href').substr(1),
-      offset: -230,
-      speed: 1000
-    });
-  })
+  // $(".arrow").click(function(){
+  //   $.smoothScroll({
+  //     scrollTarget: $(this).attr('href').substr(1),
+  //     offset: -230,
+  //     speed: 1000
+  //   });
+  // })
   $(".brands-btn-landing").click(function(){
     $.smoothScroll({
       scrollTarget: $(this).attr('href').substr(1),
