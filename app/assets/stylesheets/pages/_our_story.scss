@@ -1,4 +1,4 @@
-.about-wrapper {
+.about {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -21,38 +21,12 @@
 	}
 	p {
 		padding: 30px 20px 20px 20px;
+		width: 579px;
 	}
 	span {
 		text-align: center;
 		padding: 0 50px 20px 50px;
 	}
-}
-.about-intro {
-	h4 {
-    	text-align: left;
-	    color: #4D4D4D;
-   		margin: 70px 20px;
-	    letter-spacing: 0.2px;
-   	}
-   	span {
-   		color: #1A476F;
-   		font-weight: bold;
-   	}
-}
-.about-columns {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	padding-bottom: 20px;
-	h3 {
-   		text-align: center;
-   		color: #4D4D4D;
-   	}
-}
-.about-column {
-	width: 500px;
-	padding: 0 20px;
-	text-align: justify;
 }
 .brands-wrapper {
 	background-color: #1A476F;
@@ -164,19 +138,15 @@
     	align-items: center;
     }
 }
-@media only screen and (max-width: 570px) {
-	.brands-ind {
-    	width: auto;
-    	h4 {
-    		width: auto;
-    	}
-    	p {
-    		width: auto;
-    	}
-    }
-    .about-column {
-    	width: auto;
-    }
+@media only screen and (max-width: 682px) {
+	.about {
+		p {
+			width: auto;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+	
 }
 
 

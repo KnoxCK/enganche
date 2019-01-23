@@ -116,24 +116,40 @@
   // }
   .banner-content {
     position: absolute;
-    bottom: 37vh;
-    left: 20px;
+    bottom: 34vh;
+    left: 5px;
     right: 0;
+    h1 {
+      padding-left: 0;
+      font-size: 40px !important;
+    }
+    span {
+      font-size: 40px !important;
+    }
   }
 }
 @media only screen and (max-width: 991px){ 
   .carousel-inner {
-    margin-top: 70px;
-  }
-  h1 {
-    font-size: 50px !important;
-    font-weight: bold;
-  }
-  span { 
-    font-size: 50px !important;
+    h1 {
+      font-size: 50px !important;
+      font-weight: bold;
+    }
+    span { 
+      font-size: 50px !important;
+    }
   }
 }
-
+@media only screen and (max-width: 657px){ 
+  .banner-content {
+    bottom: 50%;
+  }
+  .carousel-inner .item { 
+  img {
+    height: auto;
+    width: 100vw;
+  }
+}
+}
 
 
 
