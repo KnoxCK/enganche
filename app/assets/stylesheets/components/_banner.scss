@@ -114,19 +114,6 @@
   // .btn-primary {
   //   margin-bottom: 10px;
   // }
-  .banner-content {
-    position: absolute;
-    bottom: 34vh;
-    left: 5px;
-    right: 0;
-    h1 {
-      padding-left: 0;
-      font-size: 40px !important;
-    }
-    span {
-      font-size: 40px !important;
-    }
-  }
 }
 @media only screen and (max-width: 991px){ 
   .carousel-inner {
@@ -144,11 +131,52 @@
     bottom: 50%;
   }
   .carousel-inner .item { 
-  img {
-    height: auto;
-    width: 100vw;
+    img {
+      height: auto;
+      width: 100vw;
+    }
   }
 }
+@media only screen and (max-width: 590px){
+  .banner-content {
+    position: absolute;
+    bottom: 13vh;
+    left: 5px;
+    right: 0;
+    h1 {
+      padding-left: 0;
+      font-size: 40px !important;
+    }
+    span {
+      font-size: 40px !important;
+    }
+  }
+}
+@media only screen and (max-width: 590px){
+  .banner-content {
+    position: absolute;
+    bottom: 3vh;
+    left: 5px;
+    right: 0;
+    h1 {
+      padding-left: 0;
+      font-size: 40px !important;
+    }
+    span {
+      font-size: 40px !important;
+    }
+  }
+}
+@media only screen and (max-width: 376px){
+  .banner-content {
+    h1 {
+      padding-left: 0;
+      font-size: 30px !important;
+    }
+    span {
+      font-size: 30px !important;
+    }
+  }
 }
 
 
