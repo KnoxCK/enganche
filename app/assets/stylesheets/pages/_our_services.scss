@@ -86,21 +86,25 @@
     justify-content: center;
   }
 }
-@media only screen and (max-width: 847px) {
-  .why-enganche-section  {
-    flex-wrap: wrap;
+@media only screen and (max-width: 1005px) {
+  .why-intro {
+    text-align: justify;
+    width: auto;
+    margin-bottom: 37px;
   }
-  .why-enganche-section  {
-    padding: 0px 10px;
+  .why-enganche-banner p {
+    width: 5px;
+
+  }
+  .our-story p {
+    text-align: left;
+    width: auto;
+  }
+  .why-enganche  {
+    margin-left: 50px;
   }
 }
 @media only screen and (max-width: 716px) {
-  .why-intro {
-    width: auto;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .why-enganche-story {
     padding-left: 20px;
     padding-right: 20px;

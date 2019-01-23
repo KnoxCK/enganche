@@ -18,32 +18,6 @@ html{overflow-y:scroll}
     text-align: center;
   }
 }
-// .about {
-//   display: flex;
-//   justify-content: center;
-//   flex-direction: column;
-//   align-items: center;
-//   h4 {
-//     color: white;
-//     text-align: center;
-//     font-size: 60px;
-//     font-weight: normal;
-//     margin-top: 85px;
-//     padding-right: 20px;
-//     padding-left: 20px;
-//   }
-//   span {
-//     color: white;
-//     font-weight: bold;
-//     font-size: 60px;
-//   }
-//   strong {
-//     color: white;
-//     font-weight: bold;
-//     font-size: 110px;
-//     line-height: 103px;
-//   }
-// }
 .quote-section {
   display: flex;
   justify-content: center;
@@ -69,16 +43,6 @@ html{overflow-y:scroll}
     color: white;
   }
 }
-// .speech-left {
-//   position: absolute;
-//   left: -57px;
-//   top: 58px;
-// }
-// .speech-right {
-//   position: absolute;
-//   bottom: 43px;
-//   right: -67px;
-// }
 .blue {
   border-top: 7px solid #1A476F;
   margin: 0;
@@ -94,12 +58,11 @@ html{overflow-y:scroll}
   }
 }
 @media only screen and (max-width: 660px) {
-  
+  .homepage-btns {
+    display: none;
+  }
 }
-@media only screen and (max-width: 503px) {
 
-  
-}
 
 
 
