@@ -29,7 +29,9 @@
 /* Navbar logo */
 .navbar-enganche-brand img {
   width: 65px;
-  margin: 15px 16px 0 10px
+  position: absolute;
+  left: 20px;
+  top: 8px;
 }
 
 /* Navbar main section (with form, links, button) */
@@ -98,11 +100,11 @@
 }
 .navbar-enganche-dropdown-menu li > a {
   transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: white !important;
+  font-weight: normal !important;
+  color: black !important;
   font-size: 15px !important;
   line-height: 22px !important;
-  padding: 10px 20px;
+  //padding: 10px 20px;
 }
 .navbar-enganche-dropdown-menu li > a:hover {
   background: transparent !important;
@@ -138,6 +140,18 @@
   padding: 33px;
   margin-top: 22px;
 }
+.dropdown-menu {
+  left: 42;
+}
+.open > .dropdown-menu {
+  padding: 33px;
+  margin-top: 22px;
+  position: relative;
+}
+.navbar-enganche-dropdown-menu::before {
+  right: 10px;
+  display: none;
+}
 
 /* NAVBAR SCROLL */
 .navbar-enganche-main-scroll {
@@ -166,10 +180,6 @@
     top: 8px;
     left: 20px;
     width: 65px;
-}
-.open > .dropdown-menu {
-  padding: 33px;
-  margin-top: 22px;
 }
 
 @media only screen and (max-width: 1263px){
