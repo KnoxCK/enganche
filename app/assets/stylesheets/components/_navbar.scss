@@ -11,7 +11,7 @@
   display: flex;
   align-items: flex-end;
   position: absolute;
-  right: 0;
+  right: 20px;
 }
 #navbar-background {
   background-color: black;
@@ -29,7 +29,7 @@
 /* Navbar logo */
 .navbar-enganche-brand img {
   width: 65px;
-  margin: 10px 16px 0 0;
+  margin: 15px 16px 0 10px
 }
 
 /* Navbar main section (with form, links, button) */
@@ -123,13 +123,13 @@
 .dropdown-toggle-style {
   position: absolute;
   top: 23px;
-  left: 50px;
+  right: 50px;
 }
 .navbar-enganche-brand-mobile img {
   width: 50px;
   padding-top: 14px;
   position: absolute;
-  right: 50px;
+  left: 50px;
 }
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
     color: #1A476F;
@@ -156,15 +156,15 @@
   display: flex;
   align-items: flex-end;
   position: absolute;
-  right: 0;
+  right: 20px;
   a {
     color: #1A476F;
   }
 }
 .navbar-enganche-brand-scroll img {
     position: absolute;
-    top: 6px;
-    left: 10px;
+    top: 8px;
+    left: 20px;
     width: 65px;
 }
 .open > .dropdown-menu {
