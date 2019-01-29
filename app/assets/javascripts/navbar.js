@@ -7,14 +7,14 @@ $(document).ready(function(){
         offset: -225,
         speed: 1500
       });
-    } 
+    }
     else if ($(this).prop('id') === 'brands-nav') {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
         offset: -260,
         speed: 1500
       });
-    } 
+    }
     else if ($(this).prop('id') === 'sponsorship-nav') {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
@@ -28,7 +28,7 @@ $(document).ready(function(){
         offset: -200,
         speed: 1500
       });
-    } 
+    }
     else {
       $.smoothScroll({
         scrollTarget: $(this).attr('href').substr(1),
@@ -91,3 +91,4 @@ $(document).ready(function(){
 //     speed: 1000
 //   });
 // })
+
