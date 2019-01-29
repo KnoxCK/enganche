@@ -124,8 +124,8 @@
 }
 .dropdown-toggle-style {
   position: absolute;
-  top: 23px;
-  right: 50px;
+  top: -20px;
+  right: 0px;
 }
 .navbar-enganche-brand-mobile img {
   width: 50px;
@@ -138,14 +138,29 @@
 }
 .open > .dropdown-menu {
   padding: 33px;
-  margin-top: 22px;
+  margin-top: 0;
 }
 .dropdown-menu {
-  left: 42;
+  left: 0;
+  top: 100%;
+  left: 0px;
+  min-width: 110vw;
+  padding: 5px 0;
+  margin: 0px;
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  height: 100vh;
 }
 .open > .dropdown-menu {
   padding: 33px;
-  margin-top: 22px;
+  margin-top: 0;
   position: relative;
 }
 .navbar-enganche-dropdown-menu::before {
