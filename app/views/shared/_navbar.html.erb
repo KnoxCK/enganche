@@ -1,8 +1,8 @@
 <div class="navbar-enganche navbar-enganche-fixed">
-  
+
   <!-- Main Navigation -->
   <div class="navbar-enganche-main hidden-xs hidden-sm">
-  
+
   <!-- Navbar menu -->
     <!-- Logo -->
     <%= link_to root_path, class: "navbar-enganche-brand" do %>
@@ -34,7 +34,7 @@
       <div class="link-outline">
         <%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link", id: "contact-nav" %>
       </div>
-    </div> 
+    </div>
   </div>
 
   <!-- Dropdown list appearing on mobile only -->
@@ -45,11 +45,12 @@
       <div class="dropdown dropdown-toggle-style">
         <a class="fa fa-bars dropdown-toggle" data-toggle="dropdown" href="#"></a>
         <ul class="dropdown-menu dropdown-menu-main navbar-enganche-dropdown-menu">
+          <div class="dropdown-dismiss">X</div>
           <li><%= link_to "HOME", root_path, class: "navbar-enganche-link", id: "home-nav" %></li>
-        <li><%= link_to "BRANDS", root_path(:anchor => "brands"), class: "navbar-enganche-link", id: "brands-nav" %></li>
-        <li><%= link_to "SPONSORSHIP SEEKERS", root_path(:anchor => "sponsorship"), class: "navbar-enganche-link", id: "sponsorship-nav" %></li>
-        <li><%= link_to "OUR STORY", root_path(:anchor => "story"), class: "navbar-enganche-link", id: "story", id: "story-nav" %></li>
-        <li><%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link", id: "contact-nav" %></li>
+          <li><%= link_to "BRANDS", root_path(:anchor => "brands"), class: "navbar-enganche-link", id: "brands-nav" %></li>
+          <li><%= link_to "SPONSORSHIP SEEKERS", root_path(:anchor => "sponsorship"), class: "navbar-enganche-link", id: "sponsorship-nav" %></li>
+          <li><%= link_to "OUR STORY", root_path(:anchor => "story"), class: "navbar-enganche-link", id: "story", id: "story-nav" %></li>
+          <li><%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link", id: "contact-nav" %></li>
         </ul>
       </div>
   </div>
@@ -59,10 +60,10 @@
 <!-- NAVBAR SCROLL -->
 
 <div class="navbar-enganche-scroll navbar-enganche-fixed slideRight hidden">
-  
+
   <!-- Main Navigation -->
   <div class="navbar-enganche-main-scroll hidden-xs hidden-sm">
-  
+
   <!-- Navbar menu -->
     <!-- Logo -->
     <%= link_to root_path, class: "navbar-enganche-brand-scroll" do %>
@@ -94,7 +95,7 @@
       <div class="link-outline">
         <%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link", id: "contact-nav" %>
       </div>
-    </div> 
+    </div>
   </div>
 
   <!-- Dropdown list appearing on mobile only -->
@@ -105,11 +106,12 @@
       <div class="dropdown dropdown-toggle-style">
         <a class="fa fa-bars dropdown-toggle-blue" data-toggle="dropdown" href="#"></a>
         <ul class="dropdown-menu dropdown-menu-main .navbar-enganche-dropdown-menu">
+          <div class="dropdown-dismiss">X</div>
           <li><%= link_to "HOME", root_path, class: "navbar-enganche-link", id: "home-nav" %></li>
-        <li><%= link_to "BRANDS", root_path(:anchor => "brands"), class: "navbar-enganche-link", id: "brands-nav" %></li>
-        <li><%= link_to "SPONSORSHIP SEEKERS", root_path(:anchor => "sponsorship"), class: "navbar-enganche-link", id: "sponsorship-nav" %></li>
-        <li><%= link_to "OUR STORY", root_path(:anchor => "story"), class: "navbar-enganche-link", id: "story", id: "story-nav" %></li>
-        <li><%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link", id: "contact-nav" %></li>
+          <li><%= link_to "BRANDS", root_path(:anchor => "brands"), class: "navbar-enganche-link", id: "brands-nav" %></li>
+          <li><%= link_to "SPONSORSHIP SEEKERS", root_path(:anchor => "sponsorship"), class: "navbar-enganche-link", id: "sponsorship-nav" %></li>
+          <li><%= link_to "OUR STORY", root_path(:anchor => "story"), class: "navbar-enganche-link", id: "story", id: "story-nav" %></li>
+          <li><%= link_to "LET'S TALK", root_path(:anchor => "contact"), class: "navbar-enganche-link", id: "contact-nav" %></li>
         </ul>
       </div>
   </div>

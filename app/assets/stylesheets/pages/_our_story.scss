@@ -129,15 +129,29 @@
 	}
 }
 @media only screen and (max-width: 932px) {
-	.about-columns { 
+	.about-columns {
 		flex-direction: column;
 		align-items: center;
 	}
-	.brands-section {
-    	flex-wrap: wrap;
-    	padding-left: 0;
-    	align-items: center;
-    }
+
+  .brands-section {
+    width: 90vw;
+    overflow-x: scroll;
+    display: -webkit-box;
+    padding: 0 10px;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .brands-ind {
+    width: 100px;
+  }
+
+  .our-story-section {
+    align-items: center;
+  }
 }
 @media only screen and (max-width: 682px) {
 	.about {
@@ -147,7 +161,7 @@
 			padding-right: 10px;
 		}
 	}
-	
+
 }
 
 
