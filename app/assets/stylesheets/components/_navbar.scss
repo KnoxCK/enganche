@@ -209,19 +209,6 @@
     padding: 0px 10px;
   }
 }
-@media only screen and (max-width: 1177px){
-  .navbar-enganche-link {
-    padding: 10px 10px;
-  }
-  .navbar-enganche-link:hover {
-    padding: 10px 10px;
-  }
-}
-@media only screen and (max-width: 1137px){
-  .navbar-enganche-link {
-    margin: 0;
-  }
-}
 @media only screen and (max-width: 991px){
   .navbar-enganche {
     height: 70px;
@@ -229,6 +216,9 @@
   }
   .navbar-enganche-scroll {
     height: 70px;
+  }
+  .navbar-enganche-scroll {
+    display: none;
   }
 
 }
