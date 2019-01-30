@@ -139,7 +139,7 @@
     color: #1A476F;
 }
 .open > .dropdown-menu {
-  padding: 33px;
+  padding-top: 33px;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -164,6 +164,7 @@
   font-size: 15vmin;
   text-align: right;
   margin-top: 10px;
+  margin-right: 33px;
 }
 
 #home-nav {
