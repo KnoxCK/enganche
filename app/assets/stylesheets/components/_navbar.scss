@@ -102,9 +102,9 @@
   transition: color 0.3s ease;
   font-weight: normal !important;
   // color: black !important;
-  font-size: 8vmin !important;
+  font-size: 6vmin !important;
   line-height: 50px !important;
-  margin: 20px 0;
+  //margin: 20px 0;
   color: #FFF !important;
   //padding: 10px 20px;
 }
@@ -153,15 +153,15 @@
   font-size: 8vmin !important;
   line-height: 30px !important;
     li > a {
-      white-space: unset !important;
+      //white-space: unset !important;
       color: #FFF !important;
-      margin: 20px 0;
+      margin: 4px 0;
     }
 }
 
 .dropdown-dismiss {
   color: white;
-  font-size: 14vmin;
+  font-size: 15vmin;
   text-align: right;
   margin-top: 10px;
 }
