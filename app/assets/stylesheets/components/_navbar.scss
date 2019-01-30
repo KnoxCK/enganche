@@ -41,7 +41,7 @@
 }
 .navbar-enganche-link {
   color: white;
-  // font-size: 14px;
+  font-size: 14px;
   padding: 10px 15px;
   font-weight: normal;
   letter-spacing: 1.1px;
@@ -103,7 +103,7 @@
   font-weight: normal !important;
   // color: black !important;
   font-size: 8vmin !important;
-  line-height: 30px !important;
+  line-height: 50px !important;
   margin: 20px 0;
   color: #FFF !important;
   //padding: 10px 20px;
@@ -161,7 +161,7 @@
 
 .dropdown-dismiss {
   color: white;
-  font-size: 20vmin;
+  font-size: 14vmin;
   text-align: right;
   margin-top: 10px;
 }
@@ -230,6 +230,7 @@
   .navbar-enganche-scroll {
     height: 70px;
   }
+
 }
 
 
