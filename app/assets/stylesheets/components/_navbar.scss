@@ -221,6 +221,12 @@
   .navbar-enganche-scroll {
     display: none;
   }
+  .dropdown-menu {
+    opacity: 0;
+    li {
+      opacity: 0;
+    }
+  }
 
 }
 
