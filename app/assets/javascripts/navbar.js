@@ -92,25 +92,4 @@ $(document).ready(function(){
 //   });
 // })
 
-$('.dropdown-toggle-style').on({
-  "shown.bs.dropdown": function() {
-    this.closable = false
-    $('.dropdown-menu').fadeTo(500, 1)
-    $('.dropdown-menu > li').delay(300).each(function(i) {
-      $(this).delay(200*i).fadeTo(400, 1)
-    })
-   },
-   "click": function() {
-      let obj = this
-      if ($(this).hasClass('open')) {
-        $(obj).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500, function() {
-          obj.closable = true
-          obj.click()
-        })
-        $('.dropdown-menu > li').fadeOut(500)
-      }
-   },
-   "hide.bs.dropdown": function(e) {
-      return this.closable
-   }
-})
+
