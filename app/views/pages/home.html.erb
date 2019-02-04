@@ -172,7 +172,12 @@
     $(document).ready(function() {
       if (window.innerWidth <= 932) {
         $('.brands-section').slick({
-
+          slidesToShow: 3,
+          centerMode: true,
+          autoplay: true,
+          nextArrow: '',
+          prevArrow: '',
+          autoplaySpeed: 1000
         })
       }
     })
