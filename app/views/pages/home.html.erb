@@ -63,7 +63,7 @@
 	<hr><div id="brands"></div>
 	<br>
 	<div class="brands-intro">
-		<p>Our previous experience as in-house sponsorship buyers for large global brands allows us to understand your business challenges and marketing objectives when looking for new properties. 
+		<p>Our previous experience as in-house sponsorship buyers for large global brands allows us to understand your business challenges and marketing objectives when looking for new properties.
 		<br></br>
 		Starting from your brief, E10 provide expert advice and save you time and resources identifying exciting and relevant opportunities through our extensive network of rights holders across sports, entertainment and the arts.
 		<br></br>
@@ -107,9 +107,9 @@
 		<br>
 		<p>We offer a range of services to individuals and organisations globally who are looking to improve their sponsorship performance and realise their commercial potential.
 		<br></br>
-		From acting as your commercial sales resource, to empowering our clients with the skills and knowledge to secure valuable sponsors themselves, we work with you to maximise your inventory and ensure its value is communicated effectively to achievable prospects. 
+		From acting as your commercial sales resource, to empowering our clients with the skills and knowledge to secure valuable sponsors themselves, we work with you to maximise your inventory and ensure its value is communicated effectively to achievable prospects.
 		<br></br>
-		We use our experience as sponsorship buyers to provide insight into what brands are looking for when investing in sponsorship and work with you to build strategies that drive sales and create long-term partnerships.  
+		We use our experience as sponsorship buyers to provide insight into what brands are looking for when investing in sponsorship and work with you to build strategies that drive sales and create long-term partnerships.
 		</p>
 	</div>
 	<div class="brands-section">
@@ -150,7 +150,7 @@
   		<div class="why-intro">
     		<p>E10 is a London-based consulting agency launched in November 2017 by sponsorship specialist, Tim Davy.
 			<br></br>
-			Tim has extensive experience leading high profile campaigns across multiple markets for global brands and major sponsorship buyers such as HSBC, Jaguar Land Rover and most recently, Emirates.  
+			Tim has extensive experience leading high profile campaigns across multiple markets for global brands and major sponsorship buyers such as HSBC, Jaguar Land Rover and most recently, Emirates.
 			<br></br>
 			He has also worked with leading rights holders such as Real Madrid, PSG, Arsenal, The European Tour, Formula One, Rugby World Cup 2015, The ATP, Roland-Garros and the Invictus Games to name a few.
 			<br></br>
@@ -166,3 +166,20 @@
 	<p class="contact-para">Would you like to speak to Tim about your sponsorship related query? Please feel free to contact him directly to find out more about our services:</p>
 	<p class="phone-number"><i class="fa fa-phone"></i><a href="tel:+44-203-948-6796">+44 (0) 7921 339 183</a><br><i class="fa fa-envelope-o"></i><%= link_to " tim.davy@e10sponsorship.com", "mailto:tim.davy@e10sponsorship.com" %></p>
 </div>
+
+<%= content_for :after_js do%>
+  <script>
+    $(document).ready(function() {
+      if (window.innerWidth <= 932) {
+        $('.brands-section').slick({
+          slidesToShow: 3,
+          centerMode: true,
+          autoplay: true,
+          nextArrow: '',
+          prevArrow: '',
+          autoplaySpeed: 1000
+        })
+      }
+    })
+  </script>
+<% end %>

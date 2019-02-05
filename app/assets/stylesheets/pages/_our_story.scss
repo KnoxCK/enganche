@@ -135,20 +135,11 @@
 	}
 
   .brands-section {
-    width: 90vw;
-    overflow-x: scroll;
-    display: -webkit-box;
     padding: 0 10px;
-    scroll-snap-type: x mandatory;
-  }
-
-  ::-webkit-scrollbar {
-    display: none;
   }
 
   .brands-ind {
     width: 100px;
-    scroll-snap-align: center;
   }
 
   .our-story-section {
