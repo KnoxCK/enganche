@@ -50,19 +50,19 @@
 		width: 40px;
 	}
 }
-.brands-swipe-icon {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	p {
-		font-size: 13px;
-		font-weight: lighter;
-		letter-spacing: 1px;
-	}
-	img {
-		width: 24px;
-	}
-}
+// .brands-swipe-icon {
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	p {
+// 		font-size: 13px;
+// 		font-weight: lighter;
+// 		letter-spacing: 1px;
+// 	}
+// 	img {
+// 		width: 24px;
+// 	}
+// }
 .brands-intro {
 	display: flex;
     flex-direction: column;
@@ -98,7 +98,7 @@
 	align-content: center;
 	text-align: center;
 	margin: 10px 25px;
-	width: auto;
+	width: 105px;
 	img {
 		height: 80px;
 	}
@@ -148,9 +148,15 @@
 	}
 	.brands-section {
 	    padding: 0 10px;
+	    overflow-x: scroll;
+		width: 1000px;
+    	white-space: nowrap;
 	}
 	.brands-ind {
-		width: 100px;
+		width: 180px;
+	}
+	.brands-first {
+		margin-left: 900px;
 	}
 	.our-story-section {
 	    align-items: center;
