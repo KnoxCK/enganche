@@ -50,6 +50,19 @@
 		width: 40px;
 	}
 }
+.brands-swipe-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	p {
+		font-size: 13px;
+		font-weight: lighter;
+		letter-spacing: 1px;
+	}
+	img {
+		width: 24px;
+	}
+}
 .brands-intro {
 	display: flex;
     flex-direction: column;
@@ -133,18 +146,15 @@
 		flex-direction: column;
 		align-items: center;
 	}
-
-  .brands-section {
-    padding: 0 10px;
-  }
-
-  .brands-ind {
-    width: 100px;
-  }
-
-  .our-story-section {
-    align-items: center;
-  }
+	.brands-section {
+	    padding: 0 10px;
+	}
+	.brands-ind {
+		width: 100px;
+	}
+	.our-story-section {
+	    align-items: center;
+	}
 }
 @media only screen and (max-width: 682px) {
 	.about {
