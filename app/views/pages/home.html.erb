@@ -166,19 +166,3 @@
 	<p class="phone-number"><i class="fa fa-phone"></i><a href="tel:+44-203-948-6796">+44 (0) 7921 339 183</a><br><i class="fa fa-envelope-o"></i><%= link_to " tim.davy@e10sponsorship.com", "mailto:tim.davy@e10sponsorship.com" %></p>
 </div>
 
-<%= content_for :after_js do%>
-  <script>
-    $(document).ready(function() {
-      if (window.innerWidth <= 932) {
-        $('.brands-section').slick({
-          slidesToShow: 3,
-          centerMode: true,
-          autoplay: true,
-          nextArrow: '',
-          prevArrow: '',
-          autoplaySpeed: 1000
-        })
-      }
-    })
-  </script>
-<% end %>
