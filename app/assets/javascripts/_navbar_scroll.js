@@ -11,6 +11,9 @@ $(window).scroll(function() {
     }
 });
 
+//Scrolling icons
+
+//brands icons
 const brandsContainer = document.getElementById("brandsContainer")
 const brandsScrollWidth = brandsContainer.scrollWidth
 const brandsContainer2 = document.getElementById("brandsContainer2")
@@ -23,6 +26,13 @@ window.addEventListener("load", () => {
     }
   }, 15);
 })
+
+setInterval(function() {
+    $("#div-reload").load(location.href,"http://e10sponsorship.com/");
+}, 1000);
+
+
+//story icons
 const storyContainer = document.getElementById("storyContainer")
 const storyScrollWidth = storyContainer.scrollWidth
 const storyContainer2 = document.getElementById("storyContainer2")
