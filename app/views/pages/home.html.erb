@@ -1,12 +1,5 @@
+<!-- Carousel for ipad/desktop -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <!--  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol> -->
-
-  <!-- Carousel for ipad/desktop -->
   	<div class="carousel-inner">
 		<div class="item active">
 		  	<img src="https://res.cloudinary.com/dqxvcdy6w/image/upload/b_rgb:000000,o_43/v1548764584/football_efsa87.jpg", id="faded-carousel">
@@ -32,19 +25,7 @@
 			<%= link_to "Brands", root_path(:anchor => "brands"), class: "btn btn-primary brands-btn-landing", id: "brands-nav" %>
 			<%= link_to "Sponsorship Seekers", root_path(:anchor => "sponsorship"), class: "btn btn-default spons-btn-landing", id: "sponsorship-nav" %>
 		</div>
-		<!-- <%= link_to root_path(:anchor => "about"), class: "arrow hidden-xs fadeIn"  do %>
-			<%= image_tag "arrow-white.png", class: "arrow" %>
-		<% end %> -->
 	</div>
-  <!-- Left and right controls -->
-  <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a> -->
 </div>
 <hr class="blue">
 
@@ -57,40 +38,38 @@
 
 <!-- BRANDS section -->
 <div class="brands-wrapper section-padding">
-	<h2 class= "brands-title text-center">BRANDS</h2>
+	<h2 class= "text-center">BRANDS</h2>
 	<h5><i>Are you looking to invest in sponsorship?</i></h5>
 	<hr><div id="brands"></div>
 	<br>
-	<div class="brands-intro">
-		<p>Our previous experience as in-house sponsorship buyers for large global brands allows us to understand your business challenges and marketing objectives when looking for new properties.
-		<br></br>
-		Starting from your brief, E10 provide expert advice and save you time and resources identifying exciting and relevant opportunities through our extensive network of rights holders across sports, entertainment and the arts.
-		<br></br>
-		We have in-depth knowledge of the current market and will work with you to secure the assets you require to deliver real value for your business, for the best possible price.
-		</p>
-	</div>
-	<div class="brands-section" id="brandsContainer">
-		<div class="brands-ind brands-first">
+	<p>Our previous experience as in-house sponsorship buyers for large global brands allows us to understand your business challenges and marketing objectives when looking for new properties.
+	<br></br>
+	Starting from your brief, E10 provide expert advice and save you time and resources identifying exciting and relevant opportunities through our extensive network of rights holders across sports, entertainment and the arts.
+	<br></br>
+	We have in-depth knowledge of the current market and will work with you to secure the assets you require to deliver real value for your business, for the best possible price.
+	</p>
+	<div class="icons-section" id="brandsContainer">
+		<div class="icon icon-first">
 			<%= image_tag "https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548101292/B_SponsorshipStrategy_oqrm4l.png" %>
 			<h6>SPONSORSHIP STRATEGY</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519732883/Access_kkkueq.png" %>
 			<h6>PROPERTY IDENTIFICATION</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548101292/B_PropertyEvaluation_jvvddj.png" %>
 			<h6>PROPERTY EVALUATION</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548101292/S_AssetAudit_tihqpg.png" %>
 			<h6>ASSET AUDIT</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548101292/B_ContractNegotiation_owdm1n.png" %>
 			<h6>CONTRACT NEGOTIATION</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548101292/B_StrategyImplementation_mxu0nn.png" %>
 			<h6>STRATEGY IMPLEMENTATION</h6>
 		</div>
@@ -98,41 +77,40 @@
 </div>
 
 <!-- SPONSORSHIP SEEKERS section -->
-<div class="our-story-section section-padding">
-	<div class="our-story">
-		<h2 class= "our-playbook-title text-center">SPONSORSHIP SEEKERS</h2>
-		<h5><i>Are you looking to secure sponsors?</i></h5>
-		<hr><div id="sponsorship"></div>
-		<br>
-		<p>We offer a range of services to individuals and organisations globally who are looking to improve their sponsorship performance and realise their commercial potential.
-		<br></br>
-		From acting as your commercial sales resource, to empowering our clients with the skills and knowledge to secure valuable sponsors themselves, we work with you to maximise your inventory and ensure its value is communicated effectively to achievable prospects.
-		<br></br>
-		We use our experience as sponsorship buyers to provide insight into what brands are looking for when investing in sponsorship and work with you to build strategies that drive sales and create long-term partnerships.
-		</p>
-	</div>
-	<div class="brands-section" id="storyContainer div-reload">
-		<div class="brands-ind brands-first">
+<div class="sponsorship-wrapper section-padding">
+	<h2 class= "text-center">SPONSORSHIP SEEKERS</h2>
+	<h5><i>Are you looking to secure sponsors?</i></h5>
+	<hr><div id="sponsorship"></div>
+	<br>
+	<p>We offer a range of services to individuals and organisations globally who are looking to improve their sponsorship performance and realise their commercial potential.
+	<br></br>
+	From acting as your commercial sales resource, to empowering our clients with the skills and knowledge to secure valuable sponsors themselves, we work with you to maximise your inventory and ensure its value is communicated effectively to achievable prospects.
+	<br></br>
+	We use our experience as sponsorship buyers to provide insight into what brands are looking for when investing in sponsorship and work with you to build strategies that drive sales and create long-term partnerships.
+	</p>
+</div>
+	<div class="icons-section" id="sponsorshipContainer">
+		<div class="icon icon-first">
 			<%= image_tag "https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548101292/S_AssetAudit_tihqpg.png" %>
 			<h6>ASSET AUDIT</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548101292/S_AssetValuation_lao4rs.png" %>
 			<h6>ASSET VALUATION</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1508782108/Content_yek2ub.png" %>
 			<h6>PROPOSAL CREATION</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519732883/Access_kkkueq.png" %>
 			<h6>PROSPECT IDENTIFICATION</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519732883/Sales_qrkf4r.png" %>
 			<h6>SALES STRATEGY</h6>
 		</div>
-		<div class="brands-ind">
+		<div class="icon">
 			<%= image_tag "http://res.cloudinary.com/dqxvcdy6w/image/upload/v1519735579/Relationships_th1jtu.png" %>
 			<h6>COMMERCIAL SALES</h6>
 		</div>
@@ -141,12 +119,12 @@
 <hr class="blue">
 
 <!-- OUR STORY section -->
-<div class="why-enganche-banner" id="why-enganche" style="background-image: url('https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548166978/AboutUs_ywtvr1.png');">
-  	<div class="why-enganche">
+<div class="our-story-wrapper" id="why-enganche" style="background-image: url('https://res.cloudinary.com/dqxvcdy6w/image/upload/v1548166978/AboutUs_ywtvr1.png');">
+  	<div class="our-story">
   		<h2>OUR STORY</h2>
   		<hr><div id="story"></div>
   		<br>
-  		<div class="why-intro">
+  		<div class="our-story-text">
     		<p>E10 is a London-based consulting agency launched in November 2017 by sponsorship specialist, Tim Davy.
 			<br></br>
 			Tim has extensive experience leading high profile campaigns across multiple markets for global brands and major sponsorship buyers such as HSBC, Jaguar Land Rover and most recently, Emirates.

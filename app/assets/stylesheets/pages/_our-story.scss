@@ -1,0 +1,40 @@
+.our-story-wrapper {
+  color: white;
+  opacity: 0.9;
+  background-size: cover !important; 
+  width: 100%;
+  background-position: center; 
+  padding: 40px 0px;
+  h2 {
+    margin-top: 60px;
+    letter-spacing: 1px;
+  }
+  p {
+    font-weight: lighter;
+  }
+  hr {
+    margin-top: 10px;
+    border: 1px solid white;
+    width: 40px;
+    margin-left: 0.5vw;
+  }
+}
+.our-story {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.our-story-text {
+  width: 570px;
+  padding-bottom: 15px;
+}
+@media only screen and (max-width: 1005px) {
+  .our-story {
+    margin-left: 50px;
+  }
+  .our-story-text {
+    text-align: justify;
+    width: 80vw;
+    margin-bottom: 37px;
+  }
+}

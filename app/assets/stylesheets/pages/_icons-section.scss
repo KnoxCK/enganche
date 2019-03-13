@@ -1,0 +1,38 @@
+.icons-section {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+.icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin: 10px 25px;
+	width: 105px;
+	img {
+		height: 80px;
+	}
+	h6 {
+		font-weight: lighter;
+		font-size: 15px !important;
+		padding-top: 8px;
+		line-height: 20px;
+	}
+}
+@media only screen and (max-width: 932px) {
+	.icons-section {
+	    padding: 0 10px;
+	    overflow-x: scroll;
+		width: 100vw;
+    	white-space: nowrap;
+	}
+	.icon {
+		width: 180px;
+	}
+	.icon-first {
+		margin-left: 900px;
+	}
+}

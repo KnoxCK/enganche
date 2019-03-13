@@ -27,21 +27,16 @@ window.addEventListener("load", () => {
   }, 15);
 })
 
-setInterval(function() {
-    $("#div-reload").load(location.href,"http://e10sponsorship.com/");
-}, 1000);
-
-
-//story icons
-const storyContainer = document.getElementById("storyContainer")
-const storyScrollWidth = storyContainer.scrollWidth
-const storyContainer2 = document.getElementById("storyContainer2")
-const storyScrollWidth2 = storyContainer.scrollWidth
+//sponsorship icons
+const sponsorshipContainer = document.getElementById("sponsorshipContainer")
+const sponsorshipScrollWidth = sponsorshipContainer.scrollWidth
+const sponsorshipContainer2 = document.getElementById("sponsorshipContainer2")
+const sponsorshipScrollWidth2 = sponsorshipContainer.scrollWidth
 
 window.addEventListener("load", () => {
   self.setInterval(() => {
-    if(storyContainer.scrollLeft !== storyScrollWidth) {
-      storyContainer.scrollTo(storyContainer.scrollLeft+1, 0);
+    if(sponsorshipContainer.scrollLeft !== sponsorshipScrollWidth) {
+      sponsorshipContainer.scrollTo(sponsorshipContainer.scrollLeft+1, 0);
     }
   }, 15);
 })

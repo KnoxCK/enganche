@@ -1,0 +1,52 @@
+.brands-wrapper {
+	background-color: #1A476F;
+    color: white;
+   	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   	h2 {
+   		margin-top: 60px;
+   		letter-spacing: 1px;
+   		color: white;
+   	}
+   	h5 {
+   		font-weight: lighter;
+   		text-align: center;
+   	}
+   	p {
+   		text-align: justify;
+		color: white;
+		width: 850px;
+   		margin-bottom: 37px;
+   	}
+   	hr {
+	    margin-top: 10px;
+	    margin-bottom: 25px;
+	    border: 1px solid white;
+	    width: 40px;
+	}
+}
+@media only screen and (max-width: 1005px) {
+  	.brands-wrapper {
+	    h4 {
+	      width: auto;
+	      display: inline;
+	      text-align: left;
+	    }
+	    p {
+	  	  width: auto;
+	  	  text-align: left;
+	    }
+	}
+}
+
+
+
+
+
+
+
+
+
+

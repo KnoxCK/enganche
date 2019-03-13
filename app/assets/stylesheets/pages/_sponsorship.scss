@@ -1,0 +1,29 @@
+.sponsorship-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  h2 {
+    margin-top: 60px;
+    letter-spacing: 1px;
+    color: #1A476F;
+  }
+  h5 {
+    font-weight: lighter;
+    color: #1A476F;
+    text-align: center;
+  }
+  hr {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #1C486E;
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 1005px) {
+  .sponsorship p {
+    text-align: left;
+    width: auto;
+  }
+}
